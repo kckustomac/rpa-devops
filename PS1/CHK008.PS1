@@ -1,0 +1,501 @@
+$jsonContent = Get-Content -Path project.json -Raw;
+$parsedJson = ConvertFrom-Json $jsonContent;
+$jsonVersion = $parsedJson.projectVersion;
+Write-Host "Parsed Version $jsonVersion";
+$jsonVersionWithId = "$jsonVersion.$ENV:BUILD_BUILDID";
+Write-Host "Version with BuildId $jsonVersionWithId";
+Write-Host "##vso[task.setvariable variable=uiPathProjectVersion]$jsonVersionWithId";
+Write-Host $PWD
+ECHO $PSScriptRoot
+$ROOTPATH=($__JT__WORKPATH).path
+CLS
+CLS
+CD /
+CD /
+$__JT__WORKPATH=D:\a\_temp\
+$__JT__WORKPATH=D:\a\_temp\
+$__JT__WORKPATH=C:\TEMP\
+$__JT__WORKPATH=C:\TEMP\
+$ROOTPATH=($__JT__WORKPATH).path
+$ROOTPATH=($__JT__WORKPATH).path
+CD $ROOTPATH
+CD $ROOTPATH
+Write-Host "#####  ";
+Write-Host "#####  ";
+Write-Host "#####  ";
+Write-Host "#####  ";
+$__JT__WORKPATH=D:\a\_temp\
+$__JT__WORKPATH=D:\a\_temp\
+$__JT__WORKPATH=C:\TEMP\
+$__JT__WORKPATH=C:\TEMP\
+$ROOTPATH=($__JT__WORKPATH).path
+$ROOTPATH=($__JT__WORKPATH).path
+CD $ROOTPATH
+CD $ROOTPATH
+Write-Host "#####  ";
+Write-Host "#####  ";
+Write-Host "#####  ";
+Write-Host "#####  ";
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###===============================================###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==-------------------------------------------==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  #####################################################  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==#################  BEG  ########################  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  #####################################################  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###===============================================###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '@ECHO OFF >$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c 'ECHO.  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c 'ECHO.  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###===============================================###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==-------------------------------------------==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  #####################################################  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==#################  END  ########################  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  #####################################################  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###===============================================###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+CLS
+CLS
+CD /
+CD /
+$__JT__WORKPATH=D:\a\_temp\
+$__JT__WORKPATH=D:\a\_temp\
+$__JT__WORKPATH=C:\TEMP\
+$__JT__WORKPATH=C:\TEMP\
+$ROOTPATH=($__JT__WORKPATH).path
+$ROOTPATH=($__JT__WORKPATH).path
+CD $ROOTPATH
+CD $ROOTPATH
+Write-Host "#####  ";
+Write-Host "#####  ";
+Write-Host "#####  ";
+Write-Host "#####  ";
+$__JT__WORKPATH=D:\a\_temp\
+$__JT__WORKPATH=D:\a\_temp\
+$__JT__WORKPATH=C:\TEMP\
+$__JT__WORKPATH=C:\TEMP\
+$ROOTPATH=($__JT__WORKPATH).path
+$ROOTPATH=($__JT__WORKPATH).path
+CD $ROOTPATH
+CD $ROOTPATH
+Write-Host "#####  ";
+Write-Host "#####  ";
+Write-Host "#####  ";
+Write-Host "#####  ";
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###===============================================###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==-------------------------------------------==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  #####################################################  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==#################  BEG  ########################  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  #####################################################  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###===============================================###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '@ECHO OFF >$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c 'ECHO.  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c 'ECHO.  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###===============================================###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==-------------------------------------------==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  #####################################################  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==#################  END  ########################  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  #####################################################  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###===============================================###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+Write-Host "#####  ";
+Write-Host "#####  ";
+Write-Host "#####  ";
+Write-Host "#####  ";
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###===============================================###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==-------------------------------------------==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  #####################################################  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==#################  BEG  ########################  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  #####################################################  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###===============================================###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c 'ECHO    ██████╗ ██████╗ ██╗ ██████╗ ██╗  ██╗████████╗███████╗██████╗ ██████╗ ██╗███╗   ██╗ ██████╗  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c 'ECHO    ██╔══██╗██╔══██╗██║██╔════╝ ██║  ██║╚══██╔══╝██╔════╝██╔══██╗██╔══██╗██║████╗  ██║██╔════╝  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c 'ECHO    ██████╔╝██████╔╝██║██║  ███╗███████║   ██║   ███████╗██████╔╝██████╔╝██║██╔██╗ ██║██║  ███╗ >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c 'ECHO    ██╔══██╗██╔══██╗██║██║   ██║██╔══██║   ██║   ╚════██║██╔═══╝ ██╔══██╗██║██║╚██╗██║██║   ██║ >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c 'ECHO    ██████╔╝██║  ██║██║╚██████╔╝██║  ██║   ██║   ███████║██║     ██║  ██║██║██║ ╚████║╚██████╔╝ >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c 'ECHO    ╚═════╝ ╚═╝  ╚═╝╚═╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚══════╝╚═╝     ╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝ ╚═════╝  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###===============================================###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==-------------------------------------------==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  #####################################################  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==#################  END  ########################  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  #####################################################  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###===============================================###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+Write-Host "#####  ";
+Write-Host "#####  ";
+Write-Host "#####  ";
+Write-Host "#####  ";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CLS
+CLS
+::######################################################################################################################
+::######################################################################################################################
+CLS
+CLS
+CD /
+CD /
+$__JT__WORKPATH=D:\a\_temp\
+$__JT__WORKPATH=D:\a\_temp\
+$__JT__WORKPATH=C:\TEMP\
+$__JT__WORKPATH=C:\TEMP\
+$ROOTPATH=($__JT__WORKPATH).path
+$ROOTPATH=($__JT__WORKPATH).path
+CD $ROOTPATH
+CD $ROOTPATH
+Write-Host "#####  ";
+Write-Host "#####  ";
+Write-Host "#####  ";
+Write-Host "#####  ";
+$__JT__WORKPATH=D:\a\_temp\
+$__JT__WORKPATH=D:\a\_temp\
+$__JT__WORKPATH=C:\TEMP\
+$__JT__WORKPATH=C:\TEMP\
+$ROOTPATH=($__JT__WORKPATH).path
+$ROOTPATH=($__JT__WORKPATH).path
+CD $ROOTPATH
+CD $ROOTPATH
+Write-Host "#####  ";
+Write-Host "#####  ";
+cmd.exe /c 'ECHO.'
+cmd.exe /c 'ECHO.'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c 'TYPE $__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c 'ECHO.'
+cmd.exe /c 'ECHO.'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c 'TYPE $__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+Write-Host "#####  ";
+Write-Host "#####  ";
+CLS
+CLS
+::######################################################################################################################
+::######################################################################################################################
+CLS
+CLS
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###===============================================###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==-------------------------------------------==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  #####################################################  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==#################  BEG  ########################  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  #####################################################  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###===============================================###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+Write-Host "#####  ";
+Write-Host "#####  ";
+Write-Host "   ._____________.  "; 
+Write-Host "   [_____________]  "; 
+Write-Host "   [ZZZZ-231291A ]  "; 
+Write-Host "   [             ]  "; 
+Write-Host "   [_____________]  "; 
+Write-Host "#####  ";
+Write-Host "#####  ";
+$BANNER = [System.IO.File]::ReadAllLines('$__JT__WORKPATH\BANNER.BANNER')
+Write-Host "$BANNER | Cyan  "; 
+Write-Host "$BANNER | White  "; 
+Write-Host $__JT__WORKPATH\BANNER.BANNER
+Write-Host "#####  ";
+Write-Host "#####  #####################################################";
+Write-Host "#####  #####################################################";
+Write-Host "#####  ";
+Write-Host "#####  ";
+Write-Host "#####  ";
+Write-Host "   [_____________]  "; 
+Write-Host "   [ZZZZ-231291B ]  "; 
+Write-Host "   [             ]  "; 
+Write-Host "   [_____________]  "; 
+Write-Host "#####  ";
+Write-Host "#####  ";
+$BANNER = [System.IO.File]::ReadAllLines('$__JT__WORKPATH\BANNER.BANNER')
+Write-Host $__JT__WORKPATH\$BANNER | Cyan
+Write-Host $__JT__WORKPATH\$BANNER | White
+Write-Host $__JT__WORKPATH\BANNER.BANNER
+Write-Host "#####  ";
+Write-Host "#####  #####################################################";
+Write-Host "#####  #####################################################";
+Write-Host "#####  ";
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###===============================================###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==-------------------------------------------==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  #####################################################  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==#################  END  ########################  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  #####################################################  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###===============================================###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+Write-Host "#####  ";
+Write-Host "#####  ";
+Write-Host "#####  ";
+Write-Host "#####  ";
+CLS
+CLS
+::######################################################################################################################
+::######################################################################################################################
+CLS
+CLS
+CLS
+CLS
+::######################################################################################################################
+::######################################################################################################################
+CLS
+CLS
+CD /
+CD /
+$__JT__WORKPATH=D:\a\_temp\
+$__JT__WORKPATH=D:\a\_temp\
+$__JT__WORKPATH=C:\TEMP\
+$__JT__WORKPATH=C:\TEMP\
+$ROOTPATH=($__JT__WORKPATH).path
+$ROOTPATH=($__JT__WORKPATH).path
+CD $ROOTPATH
+CD $ROOTPATH
+Write-Host "#####  ";
+Write-Host "#####  ";
+Write-Host "#####  ";
+Write-Host "#####  ";
+$__JT__WORKPATH=D:\a\_temp\
+$__JT__WORKPATH=D:\a\_temp\
+$__JT__WORKPATH=C:\TEMP\
+$__JT__WORKPATH=C:\TEMP\
+$ROOTPATH=($__JT__WORKPATH).path
+$ROOTPATH=($__JT__WORKPATH).path
+CD $ROOTPATH
+CD $ROOTPATH
+Write-Host "#####  ";
+Write-Host "#####  ";
+cmd.exe /c 'ECHO.'
+cmd.exe /c 'ECHO.'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c 'TYPE $__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c 'ECHO.'
+cmd.exe /c 'ECHO.'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c 'TYPE $__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+Write-Host "#####  ";
+Write-Host "#####  ";
+CLS
+CLS
+::######################################################################################################################
+::######################################################################################################################
+CLS
+CLS
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###===============================================###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==-------------------------------------------==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  #####################################################  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==#################  BEG  ########################  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  #####################################################  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###===============================================###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+CLS
+CLS
+::######################################################################################################################
+::######################################################################################################################
+CLS
+CLS
+Write-Host "#####  ";
+Write-Host "#####  ";
+Write-Host "   ._____________.  "; 
+Write-Host "   [_____________]  "; 
+Write-Host "   [ZZZZ-231292A ]  "; 
+Write-Host "   [             ]  "; 
+Write-Host "   [_____________]  "; 
+Write-Host "#####  ";
+Write-Host "#####  ";
+$BANNER = [System.IO.File]::ReadAllLines('$__JT__WORKPATH\BANNER.BANNER')
+Write-Host "$BANNER | Cyan  "; 
+Write-Host "$BANNER | White  "; 
+Write-Host $__JT__WORKPATH\BANNER.BANNER
+Write-Host "#####  ";
+Write-Host "#####  #####################################################";
+Write-Host "#####  #####################################################";
+Write-Host "#####  ";
+Write-Host "#####  ";
+Write-Host "#####  ";
+Write-Host "   [_____________]  "; 
+Write-Host "   [ZZZZ-231292B ]  "; 
+Write-Host "   [             ]  "; 
+Write-Host "   [_____________]  "; 
+Write-Host "#####  ";
+Write-Host "#####  ";
+$BANNER = [System.IO.File]::ReadAllLines('$__JT__WORKPATH\BANNER.BANNER')
+Write-Host $__JT__WORKPATH\$BANNER | Cyan
+Write-Host $__JT__WORKPATH\$BANNER | White
+Write-Host $__JT__WORKPATH\BANNER.BANNER
+Write-Host "#####  ";
+Write-Host "#####  #####################################################";
+Write-Host "#####  #####################################################";
+Write-Host "#####  ";
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###===============================================###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==-------------------------------------------==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  #####################################################  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==#################  END  ########################  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  #####################################################  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###===============================================###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+CLS
+CLS
+::######################################################################################################################
+::######################################################################################################################
+CLS
+CLS
+CD /
+CD /
+$__JT__WORKPATH=D:\a\_temp\
+$__JT__WORKPATH=D:\a\_temp\
+$__JT__WORKPATH=C:\TEMP\
+$__JT__WORKPATH=C:\TEMP\
+$ROOTPATH=($__JT__WORKPATH).path
+$ROOTPATH=($__JT__WORKPATH).path
+CD $ROOTPATH
+CD $ROOTPATH
+Write-Host "#####  ";
+Write-Host "#####  ";
+Write-Host "#####  ";
+Write-Host "#####  ";
+$__JT__WORKPATH=D:\a\_temp\
+$__JT__WORKPATH=D:\a\_temp\
+$__JT__WORKPATH=C:\TEMP\
+$__JT__WORKPATH=C:\TEMP\
+$ROOTPATH=($__JT__WORKPATH).path
+$ROOTPATH=($__JT__WORKPATH).path
+CD $ROOTPATH
+CD $ROOTPATH
+Write-Host "#####  ";
+Write-Host "#####  ";
+cmd.exe /c 'ECHO.'
+cmd.exe /c 'ECHO.'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c 'TYPE $__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c 'ECHO.'
+cmd.exe /c 'ECHO.'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c 'TYPE $__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>$__JT__WORKPATH\BANNER.BANNER'
+Write-Host "#####  ";
+Write-Host "#####  ";
+CLS
+CLS
+::######################################################################################################################
+::######################################################################################################################
+CLS
+CLS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,58 @@
+parameters:
+  - name: orchestratorFolder
+    type: string
+    default: SHARED
+stages:
+- template: RPA-Build.yml
+- template: RPA-Deploy.yml
+  parameters:
+    deploymentEnvironment: 'DEV'
+    orchestratorConnection: 'UiPath - rpawebdev101'
+    refName: 'refs/heads/develop'
+    dependsOn: ['build']
+    orchestratorFolder: '${{ parameters.orchestratorFolder }}'
+- template: RPA-Deploy.yml
+  parameters:
+    deploymentEnvironment: 'QAE'
+    orchestratorConnection: 'UiPath - rpawebtst101'
+    refName: 'refs/heads/test'
+    dependsOn: ['build']
+    orchestratorFolder: '${{ parameters.orchestratorFolder }}'
+- template: RPA-Deploy.yml
+  parameters:
+    deploymentEnvironment: 'preprod'
+    orchestratorConnection: 'UiPath - rpawebstg101'
+    refName: 'refs/heads/release'
+    dependsOn: ['build']
+    orchestratorFolder: '${{ parameters.orchestratorFolder }}'
+- template: RPA-Deploy.yml
+  parameters:
+    deploymentEnvironment: 'PRD'
+    orchestratorConnection: 'UiPath - rpawebprd101'
+    refName: 'refs/heads/release'
+    dependsOn: ['build', 'preprod']
+    orchestratorFolder: '${{ parameters.orchestratorFolder }}'
+- stage: build
+  pool:
+    name: default
+  jobs:
+  - job: secure_buildjob
+    steps:
+    - powershell: |
+        $jsonContent = Get-Content -Path project.json -Raw;
+        $parsedJson = ConvertFrom-Json $jsonContent;
+        $jsonVersion = $parsedJson.projectVersion;
+        Write-Host "Parsed Version $jsonVersion";
+        $jsonVersionWithId = "$jsonVersion.$ENV:BUILD_BUILDID";
+        Write-Host "Version with BuildId $jsonVersionWithId";
+        Write-Host "##vso[task.setvariable variable=uiPathProjectVersion]$jsonVersionWithId";
+    - task: UiPathPack@2
+      displayName: 'UiPath Pack'
+      inputs:
+        versionType: 'ManualVersion'
+        version: '$(uiPathProjectVersion)'
+        projectJsonPath: 'project.json'
+        outputPath: '$(Build.ArtifactStagingDirectory)\Output'
+    - publish: $(Build.ArtifactStagingDirectory)
+      artifact: drop    
+    

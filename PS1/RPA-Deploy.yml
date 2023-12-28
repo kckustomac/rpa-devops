@@ -1,0 +1,25 @@
+##Inputs
+# parameters.deploymentEnvironment dev
+# parameters.orchestratorConnection 'UiPath - rpawebdev101'
+# parameters.refName 'refs/heads/develop'
+# parameters.orchestratorFolder DEVELOPER SUPPLIED
+# parameters.dependsOn ['build']
+stages:
+  - stage: ${{ parameters.deploymentEnvironment }}
+    dependsOn: ${{ parameters.dependsOn }}
+    condition: and(succeeded(), eq(variables['Build.SourceBranch'], '${{ parameters.refName }}'))
+    pool:
+      name: PROD-Release
+    jobs:
+      - deployment: ${{ parameters.deploymentEnvironment }}
+        environment: rpa-${{ parameters.deploymentEnvironment }}
+        strategy:
+          runOnce:
+            deploy:
+              steps:
+                - task: UiPathDeploy@2
+                  displayName: "UiPath Deploy"
+                  inputs:
+                    packagesPath: '$(Pipeline.Workspace)/drop/Output'
+                    orchestratorConnection: '${{ parameters.orchestratorConnection }}'
+                    folderName: '${{ parameters.orchestratorFolder }}'
