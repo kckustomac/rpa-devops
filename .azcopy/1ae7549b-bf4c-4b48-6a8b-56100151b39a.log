@@ -1,0 +1,52 @@
+2023/10/26 17:25:17 AzcopyVersion  10.21.0
+2023/10/26 17:25:17 OS-Environment  windows
+2023/10/26 17:25:17 OS-Architecture  amd64
+2023/10/26 17:25:17 Log times are in UTC. Local time is 26 Oct 2023 12:25:17
+2023/10/26 17:25:17 ISO 8601 START TIME: to copy files that changed before or after this job started, use the parameter --include-before=2023-10-26T17:25:12Z or --include-after=2023-10-26T17:25:12Z
+2023/10/26 17:25:17 Any empty folders will not be processed, because source and/or destination doesn't have full folder support
+2023/10/26 17:25:17 Job-Command copy C:\Temp\ADP_MSS_kckustomac\completed_20231026.csv https://enterprisedatalakedev.blob.core.windows.net/enterprisedata/Raw/Payroll/PortalPayRateChange/Enterprise/ADPPortal/csv/completed_20231026.csv?sdd=6&se=2024-10-10t21%3A49%3A23z&sig=-REDACTED-&sp=racwle&spr=https&sr=d&st=2023-10-10t13%3A49%3A23z&sv=2022-11-02 --overwrite=true --from-to=LocalBlob --blob-type BlockBlob --log-level=INFO 
+2023/10/26 17:25:17 Number of CPUs: 4
+2023/10/26 17:25:17 Max file buffer RAM 2.000 GB
+2023/10/26 17:25:17 Max concurrent network operations: 32 (Based on number of CPUs. Set AZCOPY_CONCURRENCY_VALUE environment variable to override)
+2023/10/26 17:25:17 Check CPU usage when dynamically tuning concurrency: true (Based on hard-coded default. Set AZCOPY_TUNE_TO_CPU environment variable to true or false override)
+2023/10/26 17:25:17 Max concurrent transfer initiation routines: 64 (Based on hard-coded default. Set AZCOPY_CONCURRENT_FILES environment variable to override)
+2023/10/26 17:25:17 Max enumeration routines: 16 (Based on hard-coded default. Set AZCOPY_CONCURRENT_SCAN environment variable to override)
+2023/10/26 17:25:17 Parallelize getting file properties (file.Stat): false (Based on AZCOPY_PARALLEL_STAT_FILES environment variable)
+2023/10/26 17:25:17 Max open files when downloading: 2147483224 (auto-computed)
+2023/10/26 17:25:17 Final job part has been created
+2023/10/26 17:25:17 JobID=1ae7549b-bf4c-4b48-6a8b-56100151b39a, credential type: Anonymous
+2023/10/26 17:25:17 Final job part has been scheduled
+2023/10/26 17:25:17 INFO: [P#0-T#0] Starting transfer: Source "\\\\?\\C:\\Temp\\ADP_MSS_kckustomac\\completed_20231026.csv" Destination "https://enterprisedatalakedev.blob.core.windows.net/enterprisedata/Raw/Payroll/PortalPayRateChange/Enterprise/ADPPortal/csv/completed_20231026.csv?sdd=6&se=2024-10-10T21%3A49%3A23Z&sig=-REDACTED-&sp=racwle&spr=https&sr=d&st=2023-10-10T13%3A49%3A23Z&sv=2022-11-02". Specified chunk size 8388608
+2023/10/26 17:25:18 ==> REQUEST/RESPONSE (Try=1/29.1936ms, OpTime=191.729ms) -- RESPONSE STATUS CODE ERROR
+   PUT https://enterprisedatalakedev.blob.core.windows.net/enterprisedata/Raw/Payroll/PortalPayRateChange/Enterprise/ADPPortal/csv/completed_20231026.csv?sdd=6&se=2024-10-10T21%3A49%3A23Z&sig=-REDACTED-&sp=racwle&spr=https&sr=d&st=2023-10-10T13%3A49%3A23Z&sv=2022-11-02
+   Accept: application/xml
+   Content-Length: 8356
+   Content-Type: application/octet-stream
+   User-Agent: AzCopy/10.21.0 azsdk-go-azblob/v1.1.0 (go1.19.12; Windows_NT)
+   X-Ms-Client-Request-Id: 02ff171c-808b-4d72-4a4f-45725b6c2374
+   x-ms-access-tier: 
+   x-ms-blob-cache-control: 
+   x-ms-blob-content-disposition: 
+   x-ms-blob-content-encoding: 
+   x-ms-blob-content-language: 
+   x-ms-blob-content-md5: 
+   x-ms-blob-content-type: 
+   x-ms-blob-type: 
+   x-ms-version: 
+   --------------------------------------------------------------------------------
+   RESPONSE Status: 403 Server failed to authenticate the request. Make sure the value of Authorization header is formed correctly including the signature.
+   Content-Length: 408
+   Content-Type: application/xml
+   Date: Thu, 26 Oct 2023 17:25:17 GMT
+   Server: Microsoft-HTTPAPI/2.0
+   X-Ms-Error-Code: AuthenticationFailed
+   X-Ms-Request-Id: 4f5af844-e01e-002a-6831-08596e000000
+Response Details: ﻿<Code>AuthenticationFailed</Code><Message>Server failed to authenticate the request. Make sure the value of Authorization header is formed correctly including the signature. </Message><AuthenticationErrorDetail>Signature fields not well formed.</AuthenticationErrorDetail>
+
+2023/10/26 17:25:18 ERR: [P#0-T#0] UPLOADFAILED: \\?\C:\Temp\ADP_MSS_kckustomac\completed_20231026.csv : 403 : 403 Server failed to authenticate the request. Make sure the value of Authorization header is formed correctly including the signature.. When Uploading blob. X-Ms-Request-Id: 4f5af844-e01e-002a-6831-08596e000000
+
+   Dst: https://enterprisedatalakedev.blob.core.windows.net/enterprisedata/Raw/Payroll/PortalPayRateChange/Enterprise/ADPPortal/csv/completed_20231026.csv?sdd=6&se=2024-10-10T21%3A49%3A23Z&sig=-REDACTED-&sp=racwle&spr=https&sr=d&st=2023-10-10T13%3A49%3A23Z&sv=2022-11-02
+2023/10/26 17:25:18 JobID=1ae7549b-bf4c-4b48-6a8b-56100151b39a canceled
+2023/10/26 17:25:18 all parts of entire Job 1ae7549b-bf4c-4b48-6a8b-56100151b39a successfully completed, cancelled or paused
+2023/10/26 17:25:18 all parts of entire Job 1ae7549b-bf4c-4b48-6a8b-56100151b39a successfully cancelled
+2023/10/26 17:25:18 is part of Job which 1 total number of parts done 

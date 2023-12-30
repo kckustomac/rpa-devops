@@ -1,0 +1,13 @@
+2023/12/03 10:53:11 AzcopyVersion  10.20.1
+2023/12/03 10:53:11 OS-Environment  windows
+2023/12/03 10:53:11 OS-Architecture  amd64
+2023/12/03 10:53:11 Log times are in UTC. Local time is 3 Dec 2023 04:53:11
+2023/12/03 10:53:11 ==> REQUEST/RESPONSE (Try=1/63.8555ms, OpTime=262.896ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://digopsadevstorage.blob.core.windows.net/telemetry-logs/site-5ee09dfe-9624-433c-a6aa-da670a91b109-USe2/2023/12/03/06/d8a7b1-18772.applicationLog.csv?se=2030-11-25T06%3A55%3A09Z&sig=-REDACTED-&sp=rwdlacupyx&spr=https%2Chttp&srt=sco&ss=bfqt&st=2023-11-24T22%3A55%3A09Z&sv=2022-11-02&timeout=901
+   X-Ms-Request-Id: [4ccdd762-001e-0024-4bd6-2530b7000000]
+
+2023/12/03 10:53:11 ==> REQUEST/RESPONSE (Try=1/57.0381ms, OpTime=57.0381ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://digopsadevstorage.blob.core.windows.net/telemetry-logs/site-5ee09dfe-9624-433c-a6aa-da670a91b109-USe2/2023/12/03/06/d8a7b1-18772.applicationLog.csv?se=2030-11-25T06%3A55%3A09Z&sig=-REDACTED-&sp=rwdlacupyx&spr=https%2Chttp&srt=sco&ss=bfqt&st=2023-11-24T22%3A55%3A09Z&sv=2022-11-02&timeout=901
+   X-Ms-Request-Id: [4ccdd78c-001e-0024-6cd6-2530b7000000]
+
+2023/12/03 10:53:13 Closing Log

@@ -1,0 +1,79 @@
+2023/10/24 22:47:42 AzcopyVersion  10.21.0
+2023/10/24 22:47:42 OS-Environment  windows
+2023/10/24 22:47:42 OS-Architecture  amd64
+2023/10/24 22:47:42 Log times are in UTC. Local time is 24 Oct 2023 17:47:42
+2023/10/24 22:47:42 ISO 8601 START TIME: to copy files that changed before or after this job started, use the parameter --include-before=2023-10-24T22:47:37Z or --include-after=2023-10-24T22:47:37Z
+2023/10/24 22:47:42 Any empty folders will not be processed, because source and/or destination doesn't have full folder support
+2023/10/24 22:47:42 Job-Command copy C:\TEMP\test.pdf https://enterprisedatalakedev.blob.core.windows.net/enterprisedata/Raw/Payroll/PortalPayRateChange/Enterprise/ADPPortal/csv?sdd=6&se=2024-10-10t21%3A49%3A23z&sig=-REDACTED-&sp=racwle&spr=https&sr=d&st=2023-10-10t13%3A49%3A23z&sv=2022-11-02 --overwrite=prompt --from-to=LocalBlob --blob-type BlockBlob --follow-symlinks --check-length=true --put-md5 --follow-symlinks --disable-auto-decoding=false --recursive --log-level=INFO 
+2023/10/24 22:47:42 Number of CPUs: 4
+2023/10/24 22:47:42 Max file buffer RAM 2.000 GB
+2023/10/24 22:47:42 Max concurrent network operations: 32 (Based on number of CPUs. Set AZCOPY_CONCURRENCY_VALUE environment variable to override)
+2023/10/24 22:47:42 Check CPU usage when dynamically tuning concurrency: true (Based on hard-coded default. Set AZCOPY_TUNE_TO_CPU environment variable to true or false override)
+2023/10/24 22:47:42 Max concurrent transfer initiation routines: 64 (Based on hard-coded default. Set AZCOPY_CONCURRENT_FILES environment variable to override)
+2023/10/24 22:47:42 Max enumeration routines: 16 (Based on hard-coded default. Set AZCOPY_CONCURRENT_SCAN environment variable to override)
+2023/10/24 22:47:42 Parallelize getting file properties (file.Stat): false (Based on AZCOPY_PARALLEL_STAT_FILES environment variable)
+2023/10/24 22:47:42 Max open files when downloading: 2147483224 (auto-computed)
+2023/10/24 22:47:42 Final job part has been created
+2023/10/24 22:47:42 JobID=783e3aef-efe8-3947-715e-cbb66826f8a7, credential type: Anonymous
+2023/10/24 22:47:42 Final job part has been scheduled
+2023/10/24 22:47:42 INFO: [P#0-T#0] Starting transfer: Source "\\\\?\\C:\\TEMP\\test.pdf" Destination "https://enterprisedatalakedev.blob.core.windows.net/enterprisedata/Raw/Payroll/PortalPayRateChange/Enterprise/ADPPortal/csv?sdd=6&se=2024-10-10T21%3A49%3A23Z&sig=-REDACTED-&sp=racwle&spr=https&sr=d&st=2023-10-10T13%3A49%3A23Z&sv=2022-11-02". Specified chunk size 8388608
+2023/10/24 22:47:44 PERF: primary performance constraint is Unknown. States: X:  1, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  1, GRs: 32
+2023/10/24 22:47:44 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2023/10/24 22:47:45 ==> REQUEST/RESPONSE (Try=1/142.6355ms, OpTime=3.4414405s) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://enterprisedatalakedev.blob.core.windows.net/enterprisedata/Raw/Payroll/PortalPayRateChange/Enterprise/ADPPortal/csv?sdd=6&se=2024-10-10T21%3A49%3A23Z&sig=-REDACTED-&sp=racwle&spr=https&sr=d&st=2023-10-10T13%3A49%3A23Z&sv=2022-11-02
+   X-Ms-Request-Id: [bfa71fd1-501e-0062-52cc-064459000000]
+
+2023/10/24 22:47:46 PERF: primary performance constraint is Unknown. States: X:  1, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  1, GRs: 32
+2023/10/24 22:47:46 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2023/10/24 22:47:48 PERF: primary performance constraint is Unknown. States: X:  1, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  1, GRs: 32
+2023/10/24 22:47:48 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2023/10/24 22:47:50 PERF: primary performance constraint is Unknown. States: X:  1, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  1, GRs: 32
+2023/10/24 22:47:50 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2023/10/24 22:47:52 PERF: primary performance constraint is Unknown. States: X:  1, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  1, GRs: 32
+2023/10/24 22:47:52 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2023/10/24 22:47:54 PERF: primary performance constraint is Unknown. States: X:  1, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  1, GRs: 32
+2023/10/24 22:47:54 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2023/10/24 22:47:56 PERF: primary performance constraint is Unknown. States: X:  1, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  1, GRs: 32
+2023/10/24 22:47:56 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2023/10/24 22:47:58 PERF: primary performance constraint is Unknown. States: X:  1, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  1, GRs: 32
+2023/10/24 22:47:58 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2023/10/24 22:48:00 PERF: primary performance constraint is Unknown. States: X:  1, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  1, GRs: 32
+2023/10/24 22:48:00 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2023/10/24 22:48:02 PERF: primary performance constraint is Unknown. States: X:  1, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  1, GRs: 32
+2023/10/24 22:48:02 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2023/10/24 22:48:04 PERF: primary performance constraint is Unknown. States: X:  1, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  1, GRs: 32
+2023/10/24 22:48:04 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2023/10/24 22:48:06 PERF: primary performance constraint is Unknown. States: X:  1, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  1, GRs: 32
+2023/10/24 22:48:06 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2023/10/24 22:48:08 PERF: primary performance constraint is Unknown. States: X:  1, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  1, GRs: 32
+2023/10/24 22:48:08 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2023/10/24 22:48:09 WARN: [P#0-T#0] \\?\C:\TEMP\test.pdf File already exists, so will be skipped Dst: https://enterprisedatalakedev.blob.core.windows.net/enterprisedata/Raw/Payroll/PortalPayRateChange/Enterprise/ADPPortal/csv?sdd=6&se=2024-10-10T21%3A49%3A23Z&sig=-REDACTED-&sp=racwle&spr=https&sr=d&st=2023-10-10T13%3A49%3A23Z&sv=2022-11-02
+2023/10/24 22:48:09 JobID=783e3aef-efe8-3947-715e-cbb66826f8a7, Part#=0, TransfersDone=1 of 1
+2023/10/24 22:48:09 all parts of entire Job 783e3aef-efe8-3947-715e-cbb66826f8a7 successfully completed, cancelled or paused
+2023/10/24 22:48:09 is part of Job which 1 total number of parts done 
+2023/10/24 22:48:10 PERF: primary performance constraint is Unknown. States: X:  0, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  0, GRs: 32
+2023/10/24 22:48:10 0.0 %, 0 Done, 0 Failed, 0 Pending, 1 Skipped, 1 Total, 
+2023/10/24 22:48:10 
+
+Diagnostic stats:
+IOPS: 0
+End-to-end ms per request: 3441
+Network Errors: 0.00%
+Server Busy: 0.00%
+
+
+Job 783e3aef-efe8-3947-715e-cbb66826f8a7 summary
+Elapsed Time (Minutes): 0.4668
+Number of File Transfers: 1
+Number of Folder Property Transfers: 0
+Number of Symlink Transfers: 0
+Total Number of Transfers: 1
+Number of File Transfers Completed: 0
+Number of Folder Transfers Completed: 0
+Number of File Transfers Failed: 0
+Number of Folder Transfers Failed: 0
+Number of File Transfers Skipped: 1
+Number of Folder Transfers Skipped: 0
+TotalBytesTransferred: 0
+Final Job Status: CompletedWithSkipped
+

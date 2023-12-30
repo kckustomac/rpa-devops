@@ -1,0 +1,13 @@
+2023/11/26 08:04:43 AzcopyVersion  10.20.1
+2023/11/26 08:04:43 OS-Environment  windows
+2023/11/26 08:04:43 OS-Architecture  amd64
+2023/11/26 08:04:43 Log times are in UTC. Local time is 26 Nov 2023 02:04:43
+2023/11/26 08:04:44 ==> REQUEST/RESPONSE (Try=1/67.8148ms, OpTime=264.9395ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://digopsadevstorage.blob.core.windows.net/uipathrobotlogs/6a26126f-7db8-4a02-b357-2bd9562ba5b6/2023/11/26/03/output/RobotLogs.csv?se=2030-11-25T06%3A55%3A09Z&sig=-REDACTED-&sp=rwdlacupyx&spr=https%2Chttp&srt=sco&ss=bfqt&st=2023-11-24T22%3A55%3A09Z&sv=2022-11-02&timeout=901
+   X-Ms-Request-Id: [ed2e7da7-301e-0027-163f-2033b0000000]
+
+2023/11/26 08:04:44 ==> REQUEST/RESPONSE (Try=1/56.8691ms, OpTime=56.8691ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://digopsadevstorage.blob.core.windows.net/uipathrobotlogs/6a26126f-7db8-4a02-b357-2bd9562ba5b6/2023/11/26/03/output/RobotLogs.csv?se=2030-11-25T06%3A55%3A09Z&sig=-REDACTED-&sp=rwdlacupyx&spr=https%2Chttp&srt=sco&ss=bfqt&st=2023-11-24T22%3A55%3A09Z&sv=2022-11-02&timeout=901
+   X-Ms-Request-Id: [ed2e7dcc-301e-0027-303f-2033b0000000]
+
+2023/11/26 08:04:46 Closing Log

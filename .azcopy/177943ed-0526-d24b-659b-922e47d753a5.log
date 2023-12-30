@@ -1,0 +1,57 @@
+2023/10/25 18:44:19 AzcopyVersion  10.21.0
+2023/10/25 18:44:19 OS-Environment  windows
+2023/10/25 18:44:19 OS-Architecture  amd64
+2023/10/25 18:44:19 Log times are in UTC. Local time is 25 Oct 2023 13:44:19
+2023/10/25 18:44:19 ISO 8601 START TIME: to copy files that changed before or after this job started, use the parameter --include-before=2023-10-25T18:44:14Z or --include-after=2023-10-25T18:44:14Z
+2023/10/25 18:44:19 Any empty folders will not be processed, because source and/or destination doesn't have full folder support
+2023/10/25 18:44:19 Job-Command copy .\test.pdf https://enterprisedatalakedev.blob.core.windows.net/enterprisedata/Raw/Payroll/PortalPayRateChange/Enterprise/ADPPortal/csv/?sdd=6&se=2024-10-10t21%3A49%3A23z&sig=-REDACTED-&sp=racwle&spr=https&sr=d&st=2023-10-10t13%3A49%3A23z&sv=2022-11-02 --overwrite=true --from-to=LocalBlob --blob-type BlockBlob --follow-symlinks --check-length=true --put-md5 --follow-symlinks --disable-auto-decoding=false --recursive --log-level=INFO 
+2023/10/25 18:44:19 Number of CPUs: 4
+2023/10/25 18:44:19 Max file buffer RAM 2.000 GB
+2023/10/25 18:44:19 Max concurrent network operations: 32 (Based on number of CPUs. Set AZCOPY_CONCURRENCY_VALUE environment variable to override)
+2023/10/25 18:44:19 Check CPU usage when dynamically tuning concurrency: true (Based on hard-coded default. Set AZCOPY_TUNE_TO_CPU environment variable to true or false override)
+2023/10/25 18:44:19 Max concurrent transfer initiation routines: 64 (Based on hard-coded default. Set AZCOPY_CONCURRENT_FILES environment variable to override)
+2023/10/25 18:44:19 Max enumeration routines: 16 (Based on hard-coded default. Set AZCOPY_CONCURRENT_SCAN environment variable to override)
+2023/10/25 18:44:19 Parallelize getting file properties (file.Stat): false (Based on AZCOPY_PARALLEL_STAT_FILES environment variable)
+2023/10/25 18:44:19 Max open files when downloading: 2147483224 (auto-computed)
+2023/10/25 18:44:19 Final job part has been created
+2023/10/25 18:44:19 JobID=177943ed-0526-d24b-659b-922e47d753a5, credential type: Anonymous
+2023/10/25 18:44:19 Final job part has been scheduled
+2023/10/25 18:44:19 INFO: [P#0-T#0] Starting transfer: Source "\\\\?\\E:\\__PROJECT\\____lib__jtkc__2304\\BSHS_REFW_2500__30\\Data\\Dependencies\\bin\\test.pdf" Destination "https://enterprisedatalakedev.blob.core.windows.net/enterprisedata/Raw/Payroll/PortalPayRateChange/Enterprise/ADPPortal/csv/test.pdf?sdd=6&se=2024-10-10T21%3A49%3A23Z&sig=-REDACTED-&sp=racwle&spr=https&sr=d&st=2023-10-10T13%3A49%3A23Z&sv=2022-11-02". Specified chunk size 8388608
+2023/10/25 18:44:21 ==> REQUEST/RESPONSE (Try=1/672.4961ms, OpTime=1.355879s) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://enterprisedatalakedev.blob.core.windows.net/enterprisedata/Raw/Payroll/PortalPayRateChange/Enterprise/ADPPortal/csv/test.pdf?sdd=6&se=2024-10-10T21%3A49%3A23Z&sig=-REDACTED-&sp=racwle&spr=https&sr=d&st=2023-10-10T13%3A49%3A23Z&sv=2022-11-02
+   X-Ms-Request-Id: [b2972b35-501e-0010-5273-074316000000]
+
+2023/10/25 18:44:21 ==> REQUEST/RESPONSE (Try=1/36.9807ms, OpTime=36.9807ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://enterprisedatalakedev.blob.core.windows.net/enterprisedata/Raw/Payroll/PortalPayRateChange/Enterprise/ADPPortal/csv/test.pdf?sdd=6&se=2024-10-10T21%3A49%3A23Z&sig=-REDACTED-&sp=racwle&spr=https&sr=d&st=2023-10-10T13%3A49%3A23Z&sv=2022-11-02
+   X-Ms-Request-Id: [b2972d89-501e-0010-0673-074316000000]
+
+2023/10/25 18:44:21 INFO: [P#0-T#0] UPLOADSUCCESSFUL: https://enterprisedatalakedev.blob.core.windows.net/enterprisedata/Raw/Payroll/PortalPayRateChange/Enterprise/ADPPortal/csv/test.pdf
+2023/10/25 18:44:21 JobID=177943ed-0526-d24b-659b-922e47d753a5, Part#=0, TransfersDone=1 of 1
+2023/10/25 18:44:21 all parts of entire Job 177943ed-0526-d24b-659b-922e47d753a5 successfully completed, cancelled or paused
+2023/10/25 18:44:21 is part of Job which 1 total number of parts done 
+2023/10/25 18:44:21 PERF: primary performance constraint is Unknown. States: X:  0, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  0, GRs: 32
+2023/10/25 18:44:21 100.0 %, 1 Done, 0 Failed, 0 Pending, 0 Skipped, 1 Total, 2-sec Throughput (Mb/s): 20.8156
+2023/10/25 18:44:21 
+
+Diagnostic stats:
+IOPS: 0
+End-to-end ms per request: 695
+Network Errors: 0.00%
+Server Busy: 0.00%
+
+
+Job 177943ed-0526-d24b-659b-922e47d753a5 summary
+Elapsed Time (Minutes): 0.0333
+Number of File Transfers: 1
+Number of Folder Property Transfers: 0
+Number of Symlink Transfers: 0
+Total Number of Transfers: 1
+Number of File Transfers Completed: 1
+Number of Folder Transfers Completed: 0
+Number of File Transfers Failed: 0
+Number of Folder Transfers Failed: 0
+Number of File Transfers Skipped: 0
+Number of Folder Transfers Skipped: 0
+TotalBytesTransferred: 5204944
+Final Job Status: Completed
+

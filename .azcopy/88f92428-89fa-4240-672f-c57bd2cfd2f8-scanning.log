@@ -1,0 +1,6 @@
+2023/10/25 18:04:15 AzcopyVersion  10.21.0
+2023/10/25 18:04:15 OS-Environment  windows
+2023/10/25 18:04:15 OS-Architecture  amd64
+2023/10/25 18:04:15 Log times are in UTC. Local time is 25 Oct 2023 13:04:15
+2023/10/25 18:04:15 Failed to scan path \\?\C:\TEMP\ADP_MSS_kckustomac\SYS\completed_20231025.csv: CreateFile \\?\C:\TEMP\ADP_MSS_kckustomac\SYS\completed_20231025.csv: The system cannot find the file specified.
+2023/10/25 18:04:15 Closing Log

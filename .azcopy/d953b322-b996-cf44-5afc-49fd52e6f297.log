@@ -1,0 +1,30 @@
+2023/12/03 10:50:36 AzcopyVersion  10.20.1
+2023/12/03 10:50:36 OS-Environment  windows
+2023/12/03 10:50:36 OS-Architecture  amd64
+2023/12/03 10:50:36 Log times are in UTC. Local time is 3 Dec 2023 04:50:36
+2023/12/03 10:50:38 ISO 8601 START TIME: to copy files that changed before or after this job started, use the parameter --include-before=2023-12-03T10:50:31Z or --include-after=2023-12-03T10:50:31Z
+2023/12/03 10:50:38 Any empty folders will not be processed, because source and/or destination doesn't have full folder support
+2023/12/03 10:50:38 Job-Command copy https://devdigitaloperation9761.blob.core.windows.net/insights-metrics-pt1m/resourceId%3D/SUBSCRIPTIONS/9114A9C6-4771-4C4C-9D1C-77825090CA27/RESOURCEGROUPS/DEVDIGITALOPERATIONS/PROVIDERS/MICROSOFT.KEYVAULT/VAULTS/DIGITALOPERATIONSKEYS/y%3D2023/m%3D12/d%3D03/h%3D02/m%3D00/PT1H.json?se=2024-01-02t10%3A50%3A36z&sig=-REDACTED-&sp=rl&sr=c&sv=2021-10-04 C:\Users\KCKUST~1\AppData\Local\Temp\3\17016006366321\PT1H.json --output-type=json --cancel-from-stdin --overwrite=prompt --check-md5 FailIfDifferent --from-to=BlobLocal --blob-type AppendBlob --recursive --log-level=INFO 
+2023/12/03 10:50:38 Number of CPUs: 4
+2023/12/03 10:50:38 Max file buffer RAM 2.000 GB
+2023/12/03 10:50:38 Max concurrent network operations:  will be dynamically tuned up to 3000 (Based on auto-tuning limit. Set AZCOPY_CONCURRENCY_VALUE environment variable to override)
+2023/12/03 10:50:38 Check CPU usage when dynamically tuning concurrency: true (Based on hard-coded default. Set AZCOPY_TUNE_TO_CPU environment variable to true or false override)
+2023/12/03 10:50:38 Max concurrent transfer initiation routines: 64 (Based on hard-coded default. Set AZCOPY_CONCURRENT_FILES environment variable to override)
+2023/12/03 10:50:38 Max enumeration routines: 16 (Based on hard-coded default. Set AZCOPY_CONCURRENT_SCAN environment variable to override)
+2023/12/03 10:50:38 Parallelize getting file properties (file.Stat): false (Based on AZCOPY_PARALLEL_STAT_FILES environment variable)
+2023/12/03 10:50:38 Max open files when downloading: 2147479959 (auto-computed)
+2023/12/03 10:50:38 Final job part has been created
+2023/12/03 10:50:38 Trying 4 concurrent connections (initial starting point)
+2023/12/03 10:50:38 JobID=d953b322-b996-cf44-5afc-49fd52e6f297, credential type: Anonymous
+2023/12/03 10:50:38 Final job part has been scheduled
+2023/12/03 10:50:38 ==> REQUEST/RESPONSE (Try=1/48.2867ms, OpTime=170.9036ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://devdigitaloperation9761.blob.core.windows.net/insights-metrics-pt1m/resourceId=/SUBSCRIPTIONS/9114A9C6-4771-4C4C-9D1C-77825090CA27/RESOURCEGROUPS/DEVDIGITALOPERATIONS/PROVIDERS/MICROSOFT.KEYVAULT/VAULTS/DIGITALOPERATIONSKEYS/y=2023/m=12/d=03/h=02/m=00/PT1H.json?se=2024-01-02T10%3A50%3A36Z&sig=-REDACTED-&sp=rl&sr=c&sv=2021-10-04&timeout=901
+   X-Ms-Request-Id: [429755c9-001e-0076-7bd6-2542d7000000]
+
+2023/12/03 10:50:38 WARN: [P#0-T#0] https://devdigitaloperation9761.blob.core.windows.net/insights-metrics-pt1m/resourceId=/SUBSCRIPTIONS/9114A9C6-4771-4C4C-9D1C-77825090CA27/RESOURCEGROUPS/DEVDIGITALOPERATIONS/PROVIDERS/MICROSOFT.KEYVAULT/VAULTS/DIGITALOPERATIONSKEYS/y=2023/m=12/d=03/h=02/m=00/PT1H.json?se=2024-01-02T10%3A50%3A36Z&sig=-REDACTED-&sp=rl&sr=c&sv=2021-10-04 no MD5 was stored in the Blob/File service against this file. So the downloaded data cannot be MD5-validated. Dst: \\?\C:\Users\KCKUST~1\AppData\Local\Temp\3\17016006366321\PT1H.json
+2023/12/03 10:50:38 INFO: [P#0-T#0] DOWNLOADSUCCESSFUL: \\?\C:\Users\KCKUST~1\AppData\Local\Temp\3\17016006366321\PT1H.json
+2023/12/03 10:50:38 JobID=d953b322-b996-cf44-5afc-49fd52e6f297, Part#=0, TransfersDone=1 of 1
+2023/12/03 10:50:38 all parts of entire Job d953b322-b996-cf44-5afc-49fd52e6f297 successfully completed, cancelled or paused
+2023/12/03 10:50:38 is part of Job which 1 total number of parts done 
+2023/12/03 10:50:40 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  0, S:  0, P:  0, Q:  0, D:  0, E:  0, T:  0, GRs:  4
+2023/12/03 10:50:40 100.0 %, 1 Done, 0 Failed, 0 Pending, 0 Skipped, 1 Total, 2-sec Throughput (Mb/s): 0.0052

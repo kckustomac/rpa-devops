@@ -1,0 +1,25 @@
+2023/12/03 10:51:54 AzcopyVersion  10.20.1
+2023/12/03 10:51:54 OS-Environment  windows
+2023/12/03 10:51:54 OS-Architecture  amd64
+2023/12/03 10:51:54 Log times are in UTC. Local time is 3 Dec 2023 04:51:54
+2023/12/03 10:51:56 ISO 8601 START TIME: to copy files that changed before or after this job started, use the parameter --include-before=2023-12-03T10:51:49Z or --include-after=2023-12-03T10:51:49Z
+2023/12/03 10:51:56 Any empty folders will not be processed, because source and/or destination doesn't have full folder support
+2023/12/03 10:51:56 Job-Command copy https://devdigitaloperation9761.blob.core.windows.net/azure-webjobs-hosts/locks/msgraphandoktausers/host?se=2024-01-02t10%3A51%3A54z&sig=-REDACTED-&sp=rl&sr=c&sv=2021-10-04 C:\Users\KCKUST~1\AppData\Local\Temp\3\17016007146993\host --output-type=json --cancel-from-stdin --overwrite=prompt --check-md5 FailIfDifferent --from-to=BlobLocal --blob-type BlockBlob --recursive --log-level=INFO 
+2023/12/03 10:51:56 Number of CPUs: 4
+2023/12/03 10:51:56 Max file buffer RAM 2.000 GB
+2023/12/03 10:51:56 Max concurrent network operations:  will be dynamically tuned up to 3000 (Based on auto-tuning limit. Set AZCOPY_CONCURRENCY_VALUE environment variable to override)
+2023/12/03 10:51:56 Check CPU usage when dynamically tuning concurrency: true (Based on hard-coded default. Set AZCOPY_TUNE_TO_CPU environment variable to true or false override)
+2023/12/03 10:51:56 Max concurrent transfer initiation routines: 64 (Based on hard-coded default. Set AZCOPY_CONCURRENT_FILES environment variable to override)
+2023/12/03 10:51:56 Max enumeration routines: 16 (Based on hard-coded default. Set AZCOPY_CONCURRENT_SCAN environment variable to override)
+2023/12/03 10:51:56 Parallelize getting file properties (file.Stat): false (Based on AZCOPY_PARALLEL_STAT_FILES environment variable)
+2023/12/03 10:51:56 Max open files when downloading: 2147479959 (auto-computed)
+2023/12/03 10:51:56 Final job part has been created
+2023/12/03 10:51:56 Trying 4 concurrent connections (initial starting point)
+2023/12/03 10:51:56 JobID=7cb5653b-c499-7b40-7343-a61d18703680, credential type: Anonymous
+2023/12/03 10:51:56 Final job part has been scheduled
+2023/12/03 10:51:56 INFO: [P#0-T#0] DOWNLOADSUCCESSFUL: \\?\C:\Users\KCKUST~1\AppData\Local\Temp\3\17016007146993\host
+2023/12/03 10:51:56 JobID=7cb5653b-c499-7b40-7343-a61d18703680, Part#=0, TransfersDone=1 of 1
+2023/12/03 10:51:56 all parts of entire Job 7cb5653b-c499-7b40-7343-a61d18703680 successfully completed, cancelled or paused
+2023/12/03 10:51:56 is part of Job which 1 total number of parts done 
+2023/12/03 10:51:58 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  0, S:  0, P:  0, Q:  0, D:  0, E:  0, T:  0, GRs:  4
+2023/12/03 10:51:58 100.0 %, 1 Done, 0 Failed, 0 Pending, 0 Skipped, 1 Total, 

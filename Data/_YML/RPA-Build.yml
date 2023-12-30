@@ -1,0 +1,58 @@
+stages:
+- stage: build
+  pool:
+    name: PROD-Build
+  jobs:
+  - job: secure_buildjob
+    steps:
+    - powershell: |
+        $jsonContent = Get-Content -Path project.json -Raw;
+        $parsedJson = ConvertFrom-Json $jsonContent;
+        $jsonVersion = $parsedJson.projectVersion;
+        Write-Host "Parsed Version $jsonVersion";
+        $jsonVersionWithId = "$jsonVersion.$ENV:BUILD_BUILDID";
+        Write-Host "Version with BuildId $jsonVersionWithId";
+        Write-Host "##vso[task.setvariable variable=uiPathProjectVersion]$jsonVersionWithId";
+        Write-Host $PWD
+        ECHO PWD
+        ECHO | PWD
+        PWD | ECHO
+        ECHO $PSScriptRoot
+        $ROOTPATH=($pwd).path
+        CD /
+        CD $ROOTPATH
+        PWD
+        CLS
+
+        function Cyan
+        {
+            process { Write-Host $_ -ForegroundColor Cyan }
+        }
+
+        function White
+        {
+            process { Write-Host $_ -ForegroundColor White }
+        }
+
+        $BANNER = [System.IO.File]::ReadAllLines('$ROOTPATH\BANNER.BANNER')
+
+        Write-Output $BANNER | Cyan
+        Write-Output $BANNER | White
+        Write-Host $ROOTPATH\BANNER.BANNER
+
+        Get-Content $PSScriptRoot\BANNER.BANNER -Tail 10
+        Get-Content $PSScriptRoot\BANNER.BANNER -Tail 10 | Cyan
+        Get-Content $PSScriptRoot\BANNER.BANNER -Tail 10 | White
+        ECHO $ROOTPATH
+        ECHO '$ROOTPATH'
+        Write-Output $ROOTPATH
+        Write-Output '$ROOTPATH'
+    - task: UiPathPack@2
+      displayName: 'UiPath Pack'
+      inputs:
+        versionType: 'ManualVersion'
+        version: '$(uiPathProjectVersion)'
+        projectJsonPath: 'project.json'
+        outputPath: '$(Build.ArtifactStagingDirectory)\Output'
+    - publish: $(Build.ArtifactStagingDirectory)
+      artifact: drop

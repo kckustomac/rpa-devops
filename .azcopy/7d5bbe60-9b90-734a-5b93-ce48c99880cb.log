@@ -1,0 +1,67 @@
+2023/10/25 18:43:10 AzcopyVersion  10.21.0
+2023/10/25 18:43:10 OS-Environment  windows
+2023/10/25 18:43:10 OS-Architecture  amd64
+2023/10/25 18:43:10 Log times are in UTC. Local time is 25 Oct 2023 13:43:10
+2023/10/25 18:43:10 ISO 8601 START TIME: to copy files that changed before or after this job started, use the parameter --include-before=2023-10-25T18:43:05Z or --include-after=2023-10-25T18:43:05Z
+2023/10/25 18:43:10 Any empty folders will not be processed, because source and/or destination doesn't have full folder support
+2023/10/25 18:43:10 Job-Command copy .\test.pdf https://enterprisedatalakedev.blob.core.windows.net/enterprisedata/Raw/Payroll/PortalPayRateChange/Enterprise/ADPPortal/csv/?sdd=6&se=2024-10-10t21%3A49%3A23z&sig=-REDACTED-&sp=racwle&spr=https&sr=d&st=2023-10-10t13%3A49%3A23z&sv=2022-11-02 --overwrite=prompt --from-to=LocalBlob --blob-type BlockBlob --follow-symlinks --check-length=true --put-md5 --follow-symlinks --disable-auto-decoding=false --recursive --log-level=INFO 
+2023/10/25 18:43:10 Number of CPUs: 4
+2023/10/25 18:43:10 Max file buffer RAM 2.000 GB
+2023/10/25 18:43:10 Max concurrent network operations: 32 (Based on number of CPUs. Set AZCOPY_CONCURRENCY_VALUE environment variable to override)
+2023/10/25 18:43:10 Check CPU usage when dynamically tuning concurrency: true (Based on hard-coded default. Set AZCOPY_TUNE_TO_CPU environment variable to true or false override)
+2023/10/25 18:43:10 Max concurrent transfer initiation routines: 64 (Based on hard-coded default. Set AZCOPY_CONCURRENT_FILES environment variable to override)
+2023/10/25 18:43:10 Max enumeration routines: 16 (Based on hard-coded default. Set AZCOPY_CONCURRENT_SCAN environment variable to override)
+2023/10/25 18:43:10 Parallelize getting file properties (file.Stat): false (Based on AZCOPY_PARALLEL_STAT_FILES environment variable)
+2023/10/25 18:43:10 Max open files when downloading: 2147483224 (auto-computed)
+2023/10/25 18:43:10 Final job part has been created
+2023/10/25 18:43:10 JobID=7d5bbe60-9b90-734a-5b93-ce48c99880cb, credential type: Anonymous
+2023/10/25 18:43:10 Final job part has been scheduled
+2023/10/25 18:43:10 INFO: [P#0-T#0] Starting transfer: Source "\\\\?\\E:\\__PROJECT\\____lib__jtkc__2304\\BSHS_REFW_2500__30\\Data\\Dependencies\\bin\\test.pdf" Destination "https://enterprisedatalakedev.blob.core.windows.net/enterprisedata/Raw/Payroll/PortalPayRateChange/Enterprise/ADPPortal/csv/test.pdf?sdd=6&se=2024-10-10T21%3A49%3A23Z&sig=-REDACTED-&sp=racwle&spr=https&sr=d&st=2023-10-10T13%3A49%3A23Z&sv=2022-11-02". Specified chunk size 8388608
+2023/10/25 18:43:12 PERF: primary performance constraint is Unknown. States: X:  1, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  1, GRs: 32
+2023/10/25 18:43:12 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2023/10/25 18:43:13 ==> REQUEST/RESPONSE (Try=1/62.0297ms, OpTime=3.3568737s) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://enterprisedatalakedev.blob.core.windows.net/enterprisedata/Raw/Payroll/PortalPayRateChange/Enterprise/ADPPortal/csv/test.pdf?sdd=6&se=2024-10-10T21%3A49%3A23Z&sig=-REDACTED-&sp=racwle&spr=https&sr=d&st=2023-10-10T13%3A49%3A23Z&sv=2022-11-02
+   X-Ms-Request-Id: [856062e5-b01e-0018-1773-075919000000]
+
+2023/10/25 18:43:14 PERF: primary performance constraint is Unknown. States: X:  1, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  1, GRs: 32
+2023/10/25 18:43:14 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2023/10/25 18:43:16 PERF: primary performance constraint is Unknown. States: X:  1, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  1, GRs: 32
+2023/10/25 18:43:16 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2023/10/25 18:43:18 PERF: primary performance constraint is Unknown. States: X:  1, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  1, GRs: 32
+2023/10/25 18:43:18 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2023/10/25 18:43:20 PERF: primary performance constraint is Unknown. States: X:  1, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  1, GRs: 32
+2023/10/25 18:43:20 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2023/10/25 18:43:22 PERF: primary performance constraint is Unknown. States: X:  1, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  1, GRs: 32
+2023/10/25 18:43:22 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2023/10/25 18:43:24 PERF: primary performance constraint is Unknown. States: X:  1, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  1, GRs: 32
+2023/10/25 18:43:24 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2023/10/25 18:43:26 PERF: primary performance constraint is Unknown. States: X:  1, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  1, GRs: 32
+2023/10/25 18:43:26 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2023/10/25 18:43:28 PERF: primary performance constraint is Unknown. States: X:  1, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  1, GRs: 32
+2023/10/25 18:43:28 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2023/10/25 18:43:30 PERF: primary performance constraint is Unknown. States: X:  1, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  1, GRs: 32
+2023/10/25 18:43:30 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2023/10/25 18:43:32 PERF: primary performance constraint is Unknown. States: X:  1, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  1, GRs: 32
+2023/10/25 18:43:32 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2023/10/25 18:43:34 PERF: primary performance constraint is Unknown. States: X:  1, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  1, GRs: 32
+2023/10/25 18:43:34 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2023/10/25 18:43:36 PERF: primary performance constraint is Unknown. States: X:  1, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  1, GRs: 32
+2023/10/25 18:43:36 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2023/10/25 18:43:38 PERF: primary performance constraint is Unknown. States: X:  1, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  1, GRs: 32
+2023/10/25 18:43:38 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2023/10/25 18:43:40 PERF: primary performance constraint is Unknown. States: X:  1, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  1, GRs: 32
+2023/10/25 18:43:40 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2023/10/25 18:43:42 PERF: primary performance constraint is Unknown. States: X:  1, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  1, GRs: 32
+2023/10/25 18:43:42 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2023/10/25 18:43:44 PERF: primary performance constraint is Unknown. States: X:  1, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  1, GRs: 32
+2023/10/25 18:43:44 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2023/10/25 18:43:46 PERF: primary performance constraint is Unknown. States: X:  1, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  1, GRs: 32
+2023/10/25 18:43:46 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2023/10/25 18:43:48 PERF: primary performance constraint is Unknown. States: X:  1, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  1, GRs: 32
+2023/10/25 18:43:48 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2023/10/25 18:43:50 PERF: primary performance constraint is Unknown. States: X:  1, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  1, GRs: 32
+2023/10/25 18:43:50 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2023/10/25 18:43:51 JobID=7d5bbe60-9b90-734a-5b93-ce48c99880cb canceled
+2023/10/25 18:43:51 all parts of entire Job 7d5bbe60-9b90-734a-5b93-ce48c99880cb successfully completed, cancelled or paused
+2023/10/25 18:43:51 all parts of entire Job 7d5bbe60-9b90-734a-5b93-ce48c99880cb successfully cancelled
+2023/10/25 18:43:51 is part of Job which 1 total number of parts done 

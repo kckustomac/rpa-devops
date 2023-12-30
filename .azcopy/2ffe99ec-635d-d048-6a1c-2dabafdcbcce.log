@@ -1,0 +1,29 @@
+2023/12/03 10:56:01 AzcopyVersion  10.20.1
+2023/12/03 10:56:01 OS-Environment  windows
+2023/12/03 10:56:01 OS-Architecture  amd64
+2023/12/03 10:56:01 Log times are in UTC. Local time is 3 Dec 2023 04:56:01
+2023/12/03 10:56:03 ISO 8601 START TIME: to copy files that changed before or after this job started, use the parameter --include-before=2023-12-03T10:55:56Z or --include-after=2023-12-03T10:55:56Z
+2023/12/03 10:56:03 Any empty folders will not be processed, because source and/or destination doesn't have full folder support
+2023/12/03 10:56:03 Job-Command copy https://digopsadevstorage.blob.core.windows.net/uipathrobotlogs/6a26126f-7db8-4a02-b357-2bd9562ba5b6/2023/12/03/09/output/RobotLogs.csv?se=2030-11-25t06%3A55%3A09z&sig=-REDACTED-&sp=rwdlacupyx&spr=https%2Chttp&srt=sco&ss=bfqt&st=2023-11-24t22%3A55%3A09z&sv=2022-11-02 C:\Users\KCKUST~1\AppData\Local\Temp\3\17016009616726\RobotLogs.csv --output-type=json --cancel-from-stdin --overwrite=prompt --check-md5 FailIfDifferent --from-to=BlobLocal --blob-type BlockBlob --recursive --log-level=INFO 
+2023/12/03 10:56:03 Number of CPUs: 4
+2023/12/03 10:56:03 Max file buffer RAM 2.000 GB
+2023/12/03 10:56:03 Max concurrent network operations:  will be dynamically tuned up to 3000 (Based on auto-tuning limit. Set AZCOPY_CONCURRENCY_VALUE environment variable to override)
+2023/12/03 10:56:03 Check CPU usage when dynamically tuning concurrency: true (Based on hard-coded default. Set AZCOPY_TUNE_TO_CPU environment variable to true or false override)
+2023/12/03 10:56:03 Max concurrent transfer initiation routines: 64 (Based on hard-coded default. Set AZCOPY_CONCURRENT_FILES environment variable to override)
+2023/12/03 10:56:03 Max enumeration routines: 16 (Based on hard-coded default. Set AZCOPY_CONCURRENT_SCAN environment variable to override)
+2023/12/03 10:56:03 Parallelize getting file properties (file.Stat): false (Based on AZCOPY_PARALLEL_STAT_FILES environment variable)
+2023/12/03 10:56:03 Max open files when downloading: 2147479959 (auto-computed)
+2023/12/03 10:56:03 Final job part has been created
+2023/12/03 10:56:03 Trying 4 concurrent connections (initial starting point)
+2023/12/03 10:56:03 JobID=2ffe99ec-635d-d048-6a1c-2dabafdcbcce, credential type: Anonymous
+2023/12/03 10:56:03 Final job part has been scheduled
+2023/12/03 10:56:03 ==> REQUEST/RESPONSE (Try=1/64.9326ms, OpTime=232.8619ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://digopsadevstorage.blob.core.windows.net/uipathrobotlogs/6a26126f-7db8-4a02-b357-2bd9562ba5b6/2023/12/03/09/output/RobotLogs.csv?se=2030-11-25T06%3A55%3A09Z&sig=-REDACTED-&sp=rwdlacupyx&spr=https%2Chttp&srt=sco&ss=bfqt&st=2023-11-24T22%3A55%3A09Z&sv=2022-11-02&timeout=901
+   X-Ms-Request-Id: [349f8c1d-d01e-002d-74d7-252a39000000]
+
+2023/12/03 10:56:03 INFO: [P#0-T#0] DOWNLOADSUCCESSFUL: \\?\C:\Users\KCKUST~1\AppData\Local\Temp\3\17016009616726\RobotLogs.csv
+2023/12/03 10:56:03 JobID=2ffe99ec-635d-d048-6a1c-2dabafdcbcce, Part#=0, TransfersDone=1 of 1
+2023/12/03 10:56:03 all parts of entire Job 2ffe99ec-635d-d048-6a1c-2dabafdcbcce successfully completed, cancelled or paused
+2023/12/03 10:56:03 is part of Job which 1 total number of parts done 
+2023/12/03 10:56:05 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  0, S:  0, P:  0, Q:  0, D:  0, E:  0, T:  0, GRs:  4
+2023/12/03 10:56:05 100.0 %, 1 Done, 0 Failed, 0 Pending, 0 Skipped, 1 Total, 2-sec Throughput (Mb/s): 0.0505

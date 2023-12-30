@@ -1,0 +1,29 @@
+2023/10/24 22:50:07 AzcopyVersion  10.20.1
+2023/10/24 22:50:07 OS-Environment  windows
+2023/10/24 22:50:07 OS-Architecture  amd64
+2023/10/24 22:50:07 Log times are in UTC. Local time is 24 Oct 2023 17:50:07
+2023/10/24 22:50:09 ISO 8601 START TIME: to copy files that changed before or after this job started, use the parameter --include-before=2023-10-24T22:50:02Z or --include-after=2023-10-24T22:50:02Z
+2023/10/24 22:50:09 Any empty folders will not be processed, because source and/or destination doesn't have full folder support
+2023/10/24 22:50:09 Job-Command copy https://enterprisedatalakedev.blob.core.windows.net/enterprisedata/Raw/Payroll/PortalPayRateChange/Enterprise/ADPPortal/csv/test.pdf?sdd=6&se=2024-10-10t21%3A49%3A23z&sig=-REDACTED-&sp=racwle&spr=https&sr=d&st=2023-10-10t13%3A49%3A23z&sv=2022-11-02 C:\Users\KCKUST~1\AppData\Local\Temp\1\16981878078060\test.pdf --output-type=json --cancel-from-stdin --overwrite=prompt --check-md5 FailIfDifferent --from-to=BlobLocal --blob-type BlockBlob --recursive --log-level=INFO 
+2023/10/24 22:50:09 Number of CPUs: 4
+2023/10/24 22:50:09 Max file buffer RAM 2.000 GB
+2023/10/24 22:50:09 Max concurrent network operations:  will be dynamically tuned up to 3000 (Based on auto-tuning limit. Set AZCOPY_CONCURRENCY_VALUE environment variable to override)
+2023/10/24 22:50:09 Check CPU usage when dynamically tuning concurrency: true (Based on hard-coded default. Set AZCOPY_TUNE_TO_CPU environment variable to true or false override)
+2023/10/24 22:50:09 Max concurrent transfer initiation routines: 64 (Based on hard-coded default. Set AZCOPY_CONCURRENT_FILES environment variable to override)
+2023/10/24 22:50:09 Max enumeration routines: 16 (Based on hard-coded default. Set AZCOPY_CONCURRENT_SCAN environment variable to override)
+2023/10/24 22:50:09 Parallelize getting file properties (file.Stat): false (Based on AZCOPY_PARALLEL_STAT_FILES environment variable)
+2023/10/24 22:50:09 Max open files when downloading: 2147479959 (auto-computed)
+2023/10/24 22:50:09 Final job part has been created
+2023/10/24 22:50:09 Trying 4 concurrent connections (initial starting point)
+2023/10/24 22:50:09 JobID=39ffce64-f78b-3747-55d7-4b16c9a93b4a, credential type: Anonymous
+2023/10/24 22:50:09 Final job part has been scheduled
+2023/10/24 22:50:09 ==> REQUEST/RESPONSE (Try=1/106.4839ms, OpTime=226.5873ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://enterprisedatalakedev.blob.core.windows.net/enterprisedata/Raw/Payroll/PortalPayRateChange/Enterprise/ADPPortal/csv/test.pdf?sdd=6&se=2024-10-10T21%3A49%3A23Z&sig=-REDACTED-&sp=racwle&spr=https&sr=d&st=2023-10-10T13%3A49%3A23Z&sv=2022-11-02&timeout=901
+   X-Ms-Request-Id: [a6822cf5-901e-000f-0dcc-06f012000000]
+
+2023/10/24 22:50:10 INFO: [P#0-T#0] DOWNLOADSUCCESSFUL: \\?\C:\Users\KCKUST~1\AppData\Local\Temp\1\16981878078060\test.pdf
+2023/10/24 22:50:10 JobID=39ffce64-f78b-3747-55d7-4b16c9a93b4a, Part#=0, TransfersDone=1 of 1
+2023/10/24 22:50:10 all parts of entire Job 39ffce64-f78b-3747-55d7-4b16c9a93b4a successfully completed, cancelled or paused
+2023/10/24 22:50:10 is part of Job which 1 total number of parts done 
+2023/10/24 22:50:11 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  0, S:  0, P:  0, Q:  0, D:  0, E:  0, T:  0, GRs:  4
+2023/10/24 22:50:11 100.0 %, 1 Done, 0 Failed, 0 Pending, 0 Skipped, 1 Total, 2-sec Throughput (Mb/s): 20.805

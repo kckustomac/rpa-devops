@@ -1,0 +1,13 @@
+2023/10/24 22:50:09 AzcopyVersion  10.20.1
+2023/10/24 22:50:09 OS-Environment  windows
+2023/10/24 22:50:09 OS-Architecture  amd64
+2023/10/24 22:50:09 Log times are in UTC. Local time is 24 Oct 2023 17:50:09
+2023/10/24 22:50:09 ==> REQUEST/RESPONSE (Try=1/45.2199ms, OpTime=186.4657ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://enterprisedatalakedev.blob.core.windows.net/enterprisedata/Raw/Payroll/PortalPayRateChange/Enterprise/ADPPortal/csv/test.pdf?sdd=6&se=2024-10-10T21%3A49%3A23Z&sig=-REDACTED-&sp=racwle&spr=https&sr=d&st=2023-10-10T13%3A49%3A23Z&sv=2022-11-02&timeout=901
+   X-Ms-Request-Id: [5b1b62ca-401e-0033-20cc-06d9d5000000]
+
+2023/10/24 22:50:09 ==> REQUEST/RESPONSE (Try=1/36.5638ms, OpTime=36.5638ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://enterprisedatalakedev.blob.core.windows.net/enterprisedata/Raw/Payroll/PortalPayRateChange/Enterprise/ADPPortal/csv/test.pdf?sdd=6&se=2024-10-10T21%3A49%3A23Z&sig=-REDACTED-&sp=racwle&spr=https&sr=d&st=2023-10-10T13%3A49%3A23Z&sv=2022-11-02&timeout=901
+   X-Ms-Request-Id: [5b1b62e7-401e-0033-3bcc-06d9d5000000]
+
+2023/10/24 22:50:11 Closing Log

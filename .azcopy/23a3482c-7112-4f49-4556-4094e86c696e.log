@@ -1,0 +1,80 @@
+2023/10/25 20:59:03 AzcopyVersion  10.21.0
+2023/10/25 20:59:03 OS-Environment  windows
+2023/10/25 20:59:03 OS-Architecture  amd64
+2023/10/25 20:59:03 Log times are in UTC. Local time is 25 Oct 2023 15:59:03
+2023/10/25 20:59:03 ISO 8601 START TIME: to copy files that changed before or after this job started, use the parameter --include-before=2023-10-25T20:58:58Z or --include-after=2023-10-25T20:58:58Z
+2023/10/25 20:59:03 Any empty folders will not be processed, because source and/or destination doesn't have full folder support
+2023/10/25 20:59:03 Job-Command copy C:\Temp\ADP_MSS_kckustomac\pending_20231025.csv https://enterprisedatalakedev.blob.core.windows.net/enterprisedata/Raw/Payroll/PortalPayRateChange/Enterprise/ADPPortal/csv/pending_20231025.csv?sp=racwle 
+2023/10/25 20:59:03 Number of CPUs: 4
+2023/10/25 20:59:03 Max file buffer RAM 2.000 GB
+2023/10/25 20:59:03 Max concurrent network operations: 32 (Based on number of CPUs. Set AZCOPY_CONCURRENCY_VALUE environment variable to override)
+2023/10/25 20:59:03 Check CPU usage when dynamically tuning concurrency: true (Based on hard-coded default. Set AZCOPY_TUNE_TO_CPU environment variable to true or false override)
+2023/10/25 20:59:03 Max concurrent transfer initiation routines: 64 (Based on hard-coded default. Set AZCOPY_CONCURRENT_FILES environment variable to override)
+2023/10/25 20:59:03 Max enumeration routines: 16 (Based on hard-coded default. Set AZCOPY_CONCURRENT_SCAN environment variable to override)
+2023/10/25 20:59:03 Parallelize getting file properties (file.Stat): false (Based on AZCOPY_PARALLEL_STAT_FILES environment variable)
+2023/10/25 20:59:03 Max open files when downloading: 2147483224 (auto-computed)
+2023/10/25 20:59:03 Final job part has been created
+2023/10/25 20:59:03 JobID=23a3482c-7112-4f49-4556-4094e86c696e, credential type: Anonymous
+2023/10/25 20:59:03 Final job part has been scheduled
+2023/10/25 20:59:03 INFO: [P#0-T#0] Starting transfer: Source "\\\\?\\C:\\Temp\\ADP_MSS_kckustomac\\pending_20231025.csv" Destination "https://enterprisedatalakedev.blob.core.windows.net/enterprisedata/Raw/Payroll/PortalPayRateChange/Enterprise/ADPPortal/csv/pending_20231025.csv?sp=racwle". Specified chunk size 8388608
+2023/10/25 20:59:04 ==> REQUEST/RESPONSE (Try=1/44.9692ms, OpTime=891.4451ms) -- RESPONSE STATUS CODE ERROR
+   PUT https://enterprisedatalakedev.blob.core.windows.net/enterprisedata/Raw/Payroll/PortalPayRateChange/Enterprise/ADPPortal/csv/pending_20231025.csv?sp=racwle
+   Accept: application/xml
+   Content-Length: 2833
+   Content-Type: application/octet-stream
+   User-Agent: AzCopy/10.21.0 azsdk-go-azblob/v1.1.0 (go1.19.12; Windows_NT)
+   X-Ms-Client-Request-Id: 300f5881-dc62-4a0c-5610-68a106265ca5
+   x-ms-access-tier: 
+   x-ms-blob-cache-control: 
+   x-ms-blob-content-disposition: 
+   x-ms-blob-content-encoding: 
+   x-ms-blob-content-language: 
+   x-ms-blob-content-md5: 
+   x-ms-blob-content-type: 
+   x-ms-blob-type: 
+   x-ms-version: 
+   --------------------------------------------------------------------------------
+   RESPONSE Status: 401 Server failed to authenticate the request. Please refer to the information in the www-authenticate header.
+   Content-Length: 302
+   Content-Type: application/xml
+   Date: Wed, 25 Oct 2023 20:59:04 GMT
+   Server: Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+   Www-Authenticate: Bearer authorization_uri=https://login.microsoftonline.com/594e7026-5983-4253-9dd8-3da6391f79ca/oauth2/authorize resource_id=https://storage.azure.com
+   X-Ms-Client-Request-Id: 300f5881-dc62-4a0c-5610-68a106265ca5
+   X-Ms-Error-Code: NoAuthenticationInformation
+   X-Ms-Request-Id: 8a5cc172-c01e-0002-1e86-0738c6000000
+   X-Ms-Version: 2020-10-02
+Response Details: ﻿<Code>NoAuthenticationInformation</Code><Message>Server failed to authenticate the request. Please refer to the information in the www-authenticate header. </Message>
+
+2023/10/25 20:59:04 ERR: [P#0-T#0] UPLOADFAILED: \\?\C:\Temp\ADP_MSS_kckustomac\pending_20231025.csv : 401 : 401 Server failed to authenticate the request. Please refer to the information in the www-authenticate header.. When Uploading blob. X-Ms-Request-Id: 8a5cc172-c01e-0002-1e86-0738c6000000
+
+   Dst: https://enterprisedatalakedev.blob.core.windows.net/enterprisedata/Raw/Payroll/PortalPayRateChange/Enterprise/ADPPortal/csv/pending_20231025.csv?sp=racwle
+2023/10/25 20:59:04 JobID=23a3482c-7112-4f49-4556-4094e86c696e, Part#=0, TransfersDone=1 of 1
+2023/10/25 20:59:04 all parts of entire Job 23a3482c-7112-4f49-4556-4094e86c696e successfully completed, cancelled or paused
+2023/10/25 20:59:04 is part of Job which 1 total number of parts done 
+2023/10/25 20:59:05 PERF: primary performance constraint is Unknown. States: X:  0, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  0, GRs: 32
+2023/10/25 20:59:05 0.0 %, 0 Done, 1 Failed, 0 Pending, 0 Skipped, 1 Total, 2-sec Throughput (Mb/s): 0.0113
+2023/10/25 20:59:05 
+
+Diagnostic stats:
+IOPS: 0
+End-to-end ms per request: 891
+Network Errors: 0.00%
+Server Busy: 0.00%
+
+
+Job 23a3482c-7112-4f49-4556-4094e86c696e summary
+Elapsed Time (Minutes): 0.0333
+Number of File Transfers: 1
+Number of Folder Property Transfers: 0
+Number of Symlink Transfers: 0
+Total Number of Transfers: 1
+Number of File Transfers Completed: 0
+Number of Folder Transfers Completed: 0
+Number of File Transfers Failed: 1
+Number of Folder Transfers Failed: 0
+Number of File Transfers Skipped: 0
+Number of Folder Transfers Skipped: 0
+TotalBytesTransferred: 0
+Final Job Status: Failed
+

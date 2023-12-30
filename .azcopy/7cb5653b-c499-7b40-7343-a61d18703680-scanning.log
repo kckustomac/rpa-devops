@@ -1,0 +1,13 @@
+2023/12/03 10:51:56 AzcopyVersion  10.20.1
+2023/12/03 10:51:56 OS-Environment  windows
+2023/12/03 10:51:56 OS-Architecture  amd64
+2023/12/03 10:51:56 Log times are in UTC. Local time is 3 Dec 2023 04:51:56
+2023/12/03 10:51:56 ==> REQUEST/RESPONSE (Try=1/48.6935ms, OpTime=223.7498ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://devdigitaloperation9761.blob.core.windows.net/azure-webjobs-hosts/locks/msgraphandoktausers/host?se=2024-01-02T10%3A51%3A54Z&sig=-REDACTED-&sp=rl&sr=c&sv=2021-10-04&timeout=901
+   X-Ms-Request-Id: [bb73337e-201e-0071-3ed6-252eb4000000]
+
+2023/12/03 10:51:56 ==> REQUEST/RESPONSE (Try=1/39.3236ms, OpTime=39.8263ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://devdigitaloperation9761.blob.core.windows.net/azure-webjobs-hosts/locks/msgraphandoktausers/host?se=2024-01-02T10%3A51%3A54Z&sig=-REDACTED-&sp=rl&sr=c&sv=2021-10-04&timeout=901
+   X-Ms-Request-Id: [bb7333b8-201e-0071-73d6-252eb4000000]
+
+2023/12/03 10:51:58 Closing Log

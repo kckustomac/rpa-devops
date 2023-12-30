@@ -1,0 +1,6 @@
+2023/10/27 05:50:29 AzcopyVersion  10.21.0
+2023/10/27 05:50:29 OS-Environment  windows
+2023/10/27 05:50:29 OS-Architecture  amd64
+2023/10/27 05:50:29 Log times are in UTC. Local time is 27 Oct 2023 00:50:29
+2023/10/27 05:50:29 ISO 8601 START TIME: to copy files that changed before or after this job started, use the parameter --include-before=2023-10-27T05:50:24Z or --include-after=2023-10-27T05:50:24Z
+2023/10/27 05:50:29 Any empty folders will not be processed, because source and/or destination doesn't have full folder support

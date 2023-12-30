@@ -1,0 +1,71 @@
+2023/11/26 08:04:03 AzcopyVersion  10.20.1
+2023/11/26 08:04:03 OS-Environment  windows
+2023/11/26 08:04:03 OS-Architecture  amd64
+2023/11/26 08:04:03 Log times are in UTC. Local time is 26 Nov 2023 02:04:03
+2023/11/26 08:04:04 ISO 8601 START TIME: to copy files that changed before or after this job started, use the parameter --include-before=2023-11-26T08:03:58Z or --include-after=2023-11-26T08:03:58Z
+2023/11/26 08:04:05 Any empty folders will not be processed, because source and/or destination doesn't have full folder support
+2023/11/26 08:04:05 Job-Command copy https://digopsadevstorage.blob.core.windows.net/sitereviewdb/devsitereview-database-2023-2-23-10-43.bacpac?se=2030-11-25t06%3A55%3A09z&sig=-REDACTED-&sp=rwdlacupyx&spr=https%2Chttp&srt=sco&ss=bfqt&st=2023-11-24t22%3A55%3A09z&sv=2022-11-02 C:\Users\kckustomac\Downloads\devsitereview-database-2023-2-23-10-43.bacpac --output-type=json --cancel-from-stdin --overwrite=prompt --check-md5 FailIfDifferent --from-to=BlobLocal --recursive --log-level=INFO 
+2023/11/26 08:04:05 Number of CPUs: 4
+2023/11/26 08:04:05 Max file buffer RAM 2.000 GB
+2023/11/26 08:04:05 Max concurrent network operations:  will be dynamically tuned up to 3000 (Based on auto-tuning limit. Set AZCOPY_CONCURRENCY_VALUE environment variable to override)
+2023/11/26 08:04:05 Check CPU usage when dynamically tuning concurrency: true (Based on hard-coded default. Set AZCOPY_TUNE_TO_CPU environment variable to true or false override)
+2023/11/26 08:04:05 Max concurrent transfer initiation routines: 64 (Based on hard-coded default. Set AZCOPY_CONCURRENT_FILES environment variable to override)
+2023/11/26 08:04:05 Max enumeration routines: 16 (Based on hard-coded default. Set AZCOPY_CONCURRENT_SCAN environment variable to override)
+2023/11/26 08:04:05 Parallelize getting file properties (file.Stat): false (Based on AZCOPY_PARALLEL_STAT_FILES environment variable)
+2023/11/26 08:04:05 Max open files when downloading: 2147479959 (auto-computed)
+2023/11/26 08:04:05 Final job part has been created
+2023/11/26 08:04:05 Trying 4 concurrent connections (initial starting point)
+2023/11/26 08:04:05 JobID=7324309e-95f1-7b4c-4cb5-cf5deab87d79, credential type: Anonymous
+2023/11/26 08:04:05 Final job part has been scheduled
+2023/11/26 08:04:05 ==> REQUEST/RESPONSE (Try=1/169.5654ms, OpTime=347.8447ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://digopsadevstorage.blob.core.windows.net/sitereviewdb/devsitereview-database-2023-2-23-10-43.bacpac?se=2030-11-25T06%3A55%3A09Z&sig=-REDACTED-&sp=rwdlacupyx&spr=https%2Chttp&srt=sco&ss=bfqt&st=2023-11-24T22%3A55%3A09Z&sv=2022-11-02&timeout=901
+   X-Ms-Request-Id: [7f474262-101e-0012-563f-209de5000000]
+
+2023/11/26 08:04:05 ==> REQUEST/RESPONSE (Try=1/492.1338ms, OpTime=668.4021ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://digopsadevstorage.blob.core.windows.net/sitereviewdb/devsitereview-database-2023-2-23-10-43.bacpac?se=2030-11-25T06%3A55%3A09Z&sig=-REDACTED-&sp=rwdlacupyx&spr=https%2Chttp&srt=sco&ss=bfqt&st=2023-11-24T22%3A55%3A09Z&sv=2022-11-02&timeout=901
+   X-Ms-Request-Id: [958eee96-d01e-0040-183f-208017000000]
+
+2023/11/26 08:04:07 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  2, S:  0, P:  0, Q:  0, D:  0, E:  0, T:  2, GRs:  4
+2023/11/26 08:04:07 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 2-sec Throughput (Mb/s): 38.7057
+2023/11/26 08:04:09 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  2, S:  0, P:  0, Q:  0, D:  0, E:  0, T:  2, GRs:  4
+2023/11/26 08:04:09 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2023/11/26 08:04:11 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  1, S:  0, P:  1, Q:  0, D:  0, E:  0, T:  2, GRs:  4
+2023/11/26 08:04:11 13.3 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2023/11/26 08:04:13 Trying 16 concurrent connections (seeking optimum)
+2023/11/26 08:04:13 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  1, S:  0, P:  1, Q:  0, D:  0, E:  0, T:  2, GRs: 16
+2023/11/26 08:04:13 13.3 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2023/11/26 08:04:15 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  1, S:  0, P:  1, Q:  0, D:  0, E:  0, T:  2, GRs: 16
+2023/11/26 08:04:15 13.3 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2023/11/26 08:04:17 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  1, S:  0, P:  1, Q:  0, D:  0, E:  0, T:  2, GRs: 16
+2023/11/26 08:04:17 13.3 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2023/11/26 08:04:19 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  1, S:  0, P:  1, Q:  0, D:  0, E:  0, T:  2, GRs: 16
+2023/11/26 08:04:19 13.3 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2023/11/26 08:04:21 Trying 4 concurrent connections (backing off)
+2023/11/26 08:04:21 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  1, S:  0, P:  1, Q:  0, D:  0, E:  0, T:  2, GRs: 16
+2023/11/26 08:04:21 13.3 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2023/11/26 08:04:23 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  1, S:  0, P:  1, Q:  0, D:  0, E:  0, T:  2, GRs:  4
+2023/11/26 08:04:23 13.3 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2023/11/26 08:04:25 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  1, S:  0, P:  1, Q:  0, D:  0, E:  0, T:  2, GRs:  4
+2023/11/26 08:04:25 13.3 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2023/11/26 08:04:27 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  1, S:  0, P:  1, Q:  0, D:  0, E:  0, T:  2, GRs:  4
+2023/11/26 08:04:27 13.3 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2023/11/26 08:04:29 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  1, S:  0, P:  1, Q:  0, D:  0, E:  0, T:  2, GRs:  4
+2023/11/26 08:04:29 13.3 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2023/11/26 08:04:29 Trying 8 concurrent connections (seeking optimum)
+2023/11/26 08:04:31 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  1, S:  0, P:  1, Q:  0, D:  0, E:  0, T:  2, GRs:  8
+2023/11/26 08:04:31 13.3 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2023/11/26 08:04:33 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  1, S:  0, P:  1, Q:  0, D:  0, E:  0, T:  2, GRs:  8
+2023/11/26 08:04:33 13.3 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2023/11/26 08:04:35 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  1, S:  0, P:  1, Q:  0, D:  0, E:  0, T:  2, GRs:  8
+2023/11/26 08:04:35 13.3 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2023/11/26 08:04:37 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  1, S:  0, P:  1, Q:  0, D:  0, E:  0, T:  2, GRs:  8
+2023/11/26 08:04:37 13.3 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2023/11/26 08:04:37 Trying 4 concurrent connections (backing off)
+2023/11/26 08:04:39 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  1, S:  0, P:  1, Q:  0, D:  0, E:  0, T:  2, GRs:  4
+2023/11/26 08:04:39 13.3 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2023/11/26 08:04:39 INFO: [P#0-T#0] DOWNLOADSUCCESSFUL: \\?\C:\Users\kckustomac\Downloads\devsitereview-database-2023-2-23-10-43.bacpac
+2023/11/26 08:04:39 JobID=7324309e-95f1-7b4c-4cb5-cf5deab87d79, Part#=0, TransfersDone=1 of 1
+2023/11/26 08:04:39 all parts of entire Job 7324309e-95f1-7b4c-4cb5-cf5deab87d79 successfully completed, cancelled or paused
+2023/11/26 08:04:39 is part of Job which 1 total number of parts done 
+2023/11/26 08:04:41 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  0, S:  0, P:  0, Q:  0, D:  0, E:  0, T:  0, GRs:  4
+2023/11/26 08:04:41 100.0 %, 1 Done, 0 Failed, 0 Pending, 0 Skipped, 1 Total, 

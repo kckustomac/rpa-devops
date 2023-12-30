@@ -1,0 +1,286 @@
+$jsonContent = Get-Content -Path project.json -Raw;
+$jsonContent = Get-Content -Path project.json -Raw;
+$parsedJson = ConvertFrom-Json $jsonContent;
+$parsedJson = ConvertFrom-Json $jsonContent;
+$jsonContent = Get-Content -Path project.json -Raw;
+$jsonContent = Get-Content -Path project.json -Raw;
+$parsedJson = ConvertFrom-Json $jsonContent;
+$parsedJson = ConvertFrom-Json $jsonContent;
+$jsonVersionWithId = "$jsonVersion.$ENV:BUILD_BUILDID";
+$jsonVersionWithId = "$jsonVersion.$ENV:BUILD_BUILDID";
+Write-Host "Version with BuildId $jsonVersionWithId";
+Write-Host "Version with BuildId $jsonVersionWithId";
+Write-Host "##vso[task.setvariable variable=uiPathProjectVersion]$jsonVersionWithId";
+Write-Host "##vso[task.setvariable variable=uiPathProjectVersion]$jsonVersionWithId";
+$jsonContent = Get-Content -Path project.json -Raw;
+$jsonContent = Get-Content -Path project.json -Raw;
+$parsedJson = ConvertFrom-Json $jsonContent;
+$parsedJson = ConvertFrom-Json $jsonContent;
+Write-Host "#####  ";
+Write-Host "#####  ";
+Write-Host "$PWD";
+Write-Host "$PWD";
+iwr -useb https://raw.githubusercontent.com/kckustomac/rpa-devops/FEAT-2401-0111/PS1/BANNER.BANNER -OutFile C:\TEMP\BANNER.BANNER
+iwr -useb https://raw.githubusercontent.com/kckustomac/rpa-devops/FEAT-2401-0111/PS1/BANNER.BANNER -OutFile BANNER.BANNER
+iwr -useb https://raw.githubusercontent.com/kckustomac/rpa-devops/FEAT-2401-0111/PS1/BANNER.BANNER -OutFile .\BANNER.BANNER
+iwr -useb https://raw.githubusercontent.com/kckustomac/rpa-devops/main/IMG/BOT.SVG -OutFile C:\TEMP\BOT.SVG
+iwr -useb https://raw.githubusercontent.com/kckustomac/rpa-devops/main/IMG/BOT.SVG -OutFile $PSScriptRoot\BOT.SVG
+iwr -useb https://raw.githubusercontent.com/kckustomac/rpa-devops/main/IMG/BOT.SVG -OutFile .\BOT.SVG
+iwr -useb https://raw.githubusercontent.com/kckustomac/rpa-devops/main/IMG/BOT.PNG -OutFile C:\TEMP\BOT.PNG
+iwr -useb https://raw.githubusercontent.com/kckustomac/rpa-devops/main/IMG/BOT.PNG -OutFile $PSScriptRoot\BOT.PNG
+iwr -useb https://raw.githubusercontent.com/kckustomac/rpa-devops/main/IMG/BOT.PNG -OutFile .\BOT.PNG
+Write-Host "#####  ";
+Write-Host "#####  ";
+Write-Host "#####  #####################################################";
+Write-Host "#####  #####################################################";
+Write-Host "#####  ";
+CMD.EXE /C 'TYPE C:\TEMP\BANNER.BANNER'
+Write-Host "#####  ";
+Write-Host "#####  #####################################################";
+Write-Host "#####  #####################################################";
+Write-Host "#####  ";
+Write-Host "#####  ";
+cmd.exe /c '#####  ###==                                           ==###  >>C:\TEMP\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>C:\TEMP\BANNER.BANNER'
+cmd.exe /c '#####  ###===============================================###  >>C:\TEMP\BANNER.BANNER'
+cmd.exe /c '#####  ###==-------------------------------------------==###  >>C:\TEMP\BANNER.BANNER'
+cmd.exe /c '#####  #####################################################  >>C:\TEMP\BANNER.BANNER'
+cmd.exe /c '#####  ###==#################  BEG  ########################  >>C:\TEMP\BANNER.BANNER'
+cmd.exe /c '#####  #####################################################  >>C:\TEMP\BANNER.BANNER'
+cmd.exe /c '#####  ###===============================================###  >>C:\TEMP\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>C:\TEMP\BANNER.BANNER'
+cmd.exe /c 'ECHO  ';            
+cmd.exe /c 'ECHO  '; 
+cmd.exe /c 'ECHO *';  
+cmd.exe /c 'ECHO :';  
+cmd.exe /c 'ECHO .';  
+cmd.exe /c 'ECHO *';  
+cmd.exe /c 'ECHO :';  
+cmd.exe /c 'ECHO .';  
+cmd.exe /c 'ECHO x';  
+cmd.exe /c 'ECHO xx  ';  
+cmd.exe /c 'ECHO xxx  ';  
+cmd.exe /c 'ECHO xxxx  ';  
+cmd.exe /c 'ECHO xxxxx  ';  
+cmd.exe /c 'ECHO xxxxxx  ';  
+cmd.exe /c 'ECHO xxxxxxx  ';  
+cmd.exe /c 'ECHO xxxxxxx  ';  
+cmd.exe /c 'ECHO xxxxxxx  ';  
+cmd.exe /c 'ECHO xxxxxx  ';  
+cmd.exe /c 'ECHO xxxxx ';  
+cmd.exe /c 'ECHO xxxx ';  
+cmd.exe /c 'ECHO xxx ';  
+cmd.exe /c 'ECHO xx  ';  
+cmd.exe /c 'ECHO x';  
+cmd.exe /c 'ECHO *';  
+cmd.exe /c 'ECHO :';  
+cmd.exe /c 'ECHO .';  
+cmd.exe /c 'ECHO *';  
+cmd.exe /c 'ECHO :';  
+cmd.exe /c 'ECHO .'; 
+cmd.exe /c 'ECHO  '; 
+cmd.exe /c 'ECHO  '; 
+cmd.exe /c '#####  ###==                                           ==###  >>C:\TEMP\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>C:\TEMP\BANNER.BANNER'
+cmd.exe /c '#####  ###===============================================###  >>C:\TEMP\BANNER.BANNER'
+cmd.exe /c '#####  ###==-------------------------------------------==###  >>C:\TEMP\BANNER.BANNER'
+cmd.exe /c '#####  #####################################################  >>C:\TEMP\BANNER.BANNER'
+cmd.exe /c '#####  ###==#################  END  ########################  >>C:\TEMP\BANNER.BANNER'
+cmd.exe /c '#####  #####################################################  >>C:\TEMP\BANNER.BANNER'
+cmd.exe /c '#####  ###===============================================###  >>C:\TEMP\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>C:\TEMP\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>C:\TEMP\BANNER.BANNER'
+##  
+##  
+Write-Host "#####  ";
+Write-Host "#####  ";
+Write-Host "$PWD";
+Write-Host "$PWD";
+iwr -useb https://raw.githubusercontent.com/kckustomac/rpa-devops/FEAT-2401-0111/PS1/BANNER.BANNER -OutFile C:\TEMP\BANNER.BANNER
+iwr -useb https://raw.githubusercontent.com/kckustomac/rpa-devops/FEAT-2401-0111/PS1/BANNER.BANNER -OutFile BANNER.BANNER
+iwr -useb https://raw.githubusercontent.com/kckustomac/rpa-devops/FEAT-2401-0111/PS1/BANNER.BANNER -OutFile .\BANNER.BANNER
+iwr -useb https://raw.githubusercontent.com/kckustomac/rpa-devops/main/IMG/BOT.SVG -OutFile C:\TEMP\BOT.SVG
+iwr -useb https://raw.githubusercontent.com/kckustomac/rpa-devops/main/IMG/BOT.SVG -OutFile $PSScriptRoot\BOT.SVG
+iwr -useb https://raw.githubusercontent.com/kckustomac/rpa-devops/main/IMG/BOT.SVG -OutFile .\BOT.SVG
+iwr -useb https://raw.githubusercontent.com/kckustomac/rpa-devops/main/IMG/BOT.PNG -OutFile C:\TEMP\BOT.PNG
+iwr -useb https://raw.githubusercontent.com/kckustomac/rpa-devops/main/IMG/BOT.PNG -OutFile $PSScriptRoot\BOT.PNG
+iwr -useb https://raw.githubusercontent.com/kckustomac/rpa-devops/main/IMG/BOT.PNG -OutFile .\BOT.PNG
+Write-Host "#####  ";
+Write-Host "#####  ";
+Write-Host "#####  #####################################################";
+Write-Host "#####  #####################################################";
+Write-Host "#####  ";
+CMD.EXE /C 'TYPE C:\TEMP\BANNER.BANNER'
+Write-Host "#####  ";
+Write-Host "#####  #####################################################";
+Write-Host "#####  #####################################################";
+Write-Host "#####  ";
+Write-Host "#####  ";
+cmd.exe /c '#####  ###==                                           ==###  '
+cmd.exe /c '#####  ###==                                           ==###  '
+cmd.exe /c '#####  ###===============================================###  '
+cmd.exe /c '#####  ###==-------------------------------------------==###  '
+cmd.exe /c '#####  #####################################################  '
+cmd.exe /c '#####  ###==#################  BEG  ########################  '
+cmd.exe /c '#####  #####################################################  '
+cmd.exe /c '#####  ###===============================================###  '
+cmd.exe /c '#####  ###==                                           ==###  '
+cmd.exe /c '#####  ###==                                           ==###  '
+cmd.exe /c '#####  ###==                                           ==###  '
+cmd.exe /c '#####  ###==                                           ==###  '
+cmd.exe /c '#####  ###===============================================###  '
+cmd.exe /c '#####  ###==-------------------------------------------==###  '
+cmd.exe /c '#####  #####################################################  '
+cmd.exe /c '#####  ###==#################  END  ########################  '
+cmd.exe /c '#####  #####################################################  '
+cmd.exe /c '#####  ###===============================================###  '
+cmd.exe /c '#####  ###==                                           ==###  '
+cmd.exe /c '#####  ###==                                           ==###  '
+Write-Host "#####  ";
+Write-Host "#####  ";
+Write-Host "$PWD";
+Write-Host "$PWD";
+iwr -useb https://raw.githubusercontent.com/kckustomac/rpa-devops/FEAT-2401-0111/PS1/BANNER.BANNER -OutFile C:\TEMP\BANNER.BANNER
+iwr -useb https://raw.githubusercontent.com/kckustomac/rpa-devops/FEAT-2401-0111/PS1/BANNER.BANNER -OutFile BANNER.BANNER
+iwr -useb https://raw.githubusercontent.com/kckustomac/rpa-devops/FEAT-2401-0111/PS1/BANNER.BANNER -OutFile .\BANNER.BANNER
+iwr -useb https://raw.githubusercontent.com/kckustomac/rpa-devops/main/IMG/BOT.SVG -OutFile C:\TEMP\BOT.SVG
+iwr -useb https://raw.githubusercontent.com/kckustomac/rpa-devops/main/IMG/BOT.SVG -OutFile $PSScriptRoot\BOT.SVG
+iwr -useb https://raw.githubusercontent.com/kckustomac/rpa-devops/main/IMG/BOT.SVG -OutFile .\BOT.SVG
+iwr -useb https://raw.githubusercontent.com/kckustomac/rpa-devops/main/IMG/BOT.PNG -OutFile C:\TEMP\BOT.PNG
+iwr -useb https://raw.githubusercontent.com/kckustomac/rpa-devops/main/IMG/BOT.PNG -OutFile $PSScriptRoot\BOT.PNG
+iwr -useb https://raw.githubusercontent.com/kckustomac/rpa-devops/main/IMG/BOT.PNG -OutFile .\BOT.PNG
+Write-Host "#####  ";
+Write-Host "#####  ";
+Write-Host "#####  #####################################################";
+Write-Host "#####  #####################################################";
+Write-Host "#####  ";
+CMD.EXE /C 'TYPE C:\TEMP\BANNER.BANNER'
+Write-Host "#####  ";
+Write-Host "#####  #####################################################";
+Write-Host "#####  #####################################################";
+Write-Host "#####  ";
+Write-Host "#####  ";
+cmd.exe /c '#####  ###==                                           ==###  '
+cmd.exe /c '#####  ###==                                           ==###  '
+cmd.exe /c '#####  ###===============================================###  '
+cmd.exe /c '#####  ###==-------------------------------------------==###  '
+cmd.exe /c '#####  #####################################################  '
+cmd.exe /c '#####  ###==#################  BEG  ########################  '
+cmd.exe /c '#####  #####################################################  '
+cmd.exe /c '#####  ###===============================================###  '
+cmd.exe /c '#####  ###==                                           ==###  '
+cmd.exe /c '#####  ###==                                           ==###  '
+cmd.exe /c 'ECHO    ██████╗ ██████╗ ██╗ ██████╗ ██╗  ██╗████████╗███████╗██████╗ ██████╗ ██╗███╗   ██╗ ██████╗  '
+cmd.exe /c 'ECHO    ██╔══██╗██╔══██╗██║██╔════╝ ██║  ██║╚══██╔══╝██╔════╝██╔══██╗██╔══██╗██║████╗  ██║██╔════╝  '
+cmd.exe /c 'ECHO    ██████╔╝██████╔╝██║██║  ███╗███████║   ██║   ███████╗██████╔╝██████╔╝██║██╔██╗ ██║██║  ███╗ '
+cmd.exe /c 'ECHO    ██╔══██╗██╔══██╗██║██║   ██║██╔══██║   ██║   ╚════██║██╔═══╝ ██╔══██╗██║██║╚██╗██║██║   ██║ '
+cmd.exe /c 'ECHO    ██████╔╝██║  ██║██║╚██████╔╝██║  ██║   ██║   ███████║██║     ██║  ██║██║██║ ╚████║╚██████╔╝ '
+cmd.exe /c 'ECHO    ╚═════╝ ╚═╝  ╚═╝╚═╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚══════╝╚═╝     ╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝ ╚═════╝  '
+cmd.exe /c '#####  ###==                                           ==###  '
+cmd.exe /c '#####  ###==                                           ==###  '
+cmd.exe /c '#####  ###===============================================###  '
+cmd.exe /c '#####  ###==-------------------------------------------==###  '
+cmd.exe /c '#####  #####################################################  '
+cmd.exe /c '#####  ###==#################  END  ########################  '
+cmd.exe /c '#####  #####################################################  '
+cmd.exe /c '#####  ###===============================================###  '
+cmd.exe /c '#####  ###==                                           ==###  '
+cmd.exe /c '#####  ###==                                           ==###  '
+Write-Host "#####  ";
+Write-Host "#####  ";
+Write-Host "$PWD";
+Write-Host "$PWD";
+iwr -useb https://raw.githubusercontent.com/kckustomac/rpa-devops/FEAT-2401-0111/PS1/BANNER.BANNER -OutFile C:\TEMP\BANNER.BANNER
+iwr -useb https://raw.githubusercontent.com/kckustomac/rpa-devops/FEAT-2401-0111/PS1/BANNER.BANNER -OutFile BANNER.BANNER
+iwr -useb https://raw.githubusercontent.com/kckustomac/rpa-devops/FEAT-2401-0111/PS1/BANNER.BANNER -OutFile .\BANNER.BANNER
+iwr -useb https://raw.githubusercontent.com/kckustomac/rpa-devops/main/IMG/BOT.SVG -OutFile C:\TEMP\BOT.SVG
+iwr -useb https://raw.githubusercontent.com/kckustomac/rpa-devops/main/IMG/BOT.SVG -OutFile $PSScriptRoot\BOT.SVG
+iwr -useb https://raw.githubusercontent.com/kckustomac/rpa-devops/main/IMG/BOT.SVG -OutFile .\BOT.SVG
+iwr -useb https://raw.githubusercontent.com/kckustomac/rpa-devops/main/IMG/BOT.PNG -OutFile C:\TEMP\BOT.PNG
+iwr -useb https://raw.githubusercontent.com/kckustomac/rpa-devops/main/IMG/BOT.PNG -OutFile $PSScriptRoot\BOT.PNG
+iwr -useb https://raw.githubusercontent.com/kckustomac/rpa-devops/main/IMG/BOT.PNG -OutFile .\BOT.PNG
+Write-Host "#####  ";
+Write-Host "#####  ";
+Write-Host "#####  #####################################################";
+Write-Host "#####  #####################################################";
+Write-Host "#####  ";
+CMD.EXE /C 'TYPE C:\TEMP\BANNER.BANNER'
+Write-Host "#####  ";
+Write-Host "#####  #####################################################";
+Write-Host "#####  #####################################################";
+Write-Host "#####  ";
+Write-Host "#####  ";
+cmd.exe /c '#####  ###==                                           ==###  >>C:\TEMP\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>C:\TEMP\BANNER.BANNER'
+cmd.exe /c '#####  ###===============================================###  >>C:\TEMP\BANNER.BANNER'
+cmd.exe /c '#####  ###==-------------------------------------------==###  >>C:\TEMP\BANNER.BANNER'
+cmd.exe /c '#####  #####################################################  >>C:\TEMP\BANNER.BANNER'
+cmd.exe /c '#####  ###==#################  BEG  ########################  >>C:\TEMP\BANNER.BANNER'
+cmd.exe /c '#####  #####################################################  >>C:\TEMP\BANNER.BANNER'
+cmd.exe /c '#####  ###===============================================###  >>C:\TEMP\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>C:\TEMP\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>C:\TEMP\BANNER.BANNER'
+Write-Host "#####  ";
+Write-Host "#####  ";
+Write-Host "   ._____________.  "; 
+Write-Host "   [_____________]  "; 
+Write-Host "   [ZZZZ-231291A ]  "; 
+Write-Host "   [             ]  "; 
+Write-Host "   [_____________]  "; 
+Write-Host "#####  ";
+Write-Host "#####  ";
+Write-Host "#####  #####################################################";
+Write-Host "#####  #####################################################";
+Write-Host "#####  ";
+Write-Host "#####  ";
+Write-Host "   [_____________]  "; 
+Write-Host "   [ZZZZ-231291B ]  "; 
+Write-Host "   [             ]  "; 
+Write-Host "   [_____________]  "; 
+Write-Host "#####  ";
+Write-Host "#####  ";
+cmd.exe /c '#####  ###==                                           ==###  >>C:\TEMP\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>C:\TEMP\BANNER.BANNER'
+cmd.exe /c '#####  ###===============================================###  >>C:\TEMP\BANNER.BANNER'
+cmd.exe /c '#####  ###==-------------------------------------------==###  >>C:\TEMP\BANNER.BANNER'
+cmd.exe /c '#####  #####################################################  >>C:\TEMP\BANNER.BANNER'
+cmd.exe /c '#####  ###==#################  END  ########################  >>C:\TEMP\BANNER.BANNER'
+cmd.exe /c '#####  #####################################################  >>C:\TEMP\BANNER.BANNER'
+cmd.exe /c '#####  ###===============================================###  >>C:\TEMP\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>C:\TEMP\BANNER.BANNER'
+cmd.exe /c '#####  ###==                                           ==###  >>C:\TEMP\BANNER.BANNER'
+Write-Host "#####  ";
+Write-Host "#####  ";
+Write-Host "$PWD";
+Write-Host "$PWD";
+iwr -useb https://raw.githubusercontent.com/kckustomac/rpa-devops/FEAT-2401-0111/PS1/BANNER.BANNER -OutFile C:\TEMP\BANNER.BANNER
+iwr -useb https://raw.githubusercontent.com/kckustomac/rpa-devops/FEAT-2401-0111/PS1/BANNER.BANNER -OutFile BANNER.BANNER
+iwr -useb https://raw.githubusercontent.com/kckustomac/rpa-devops/FEAT-2401-0111/PS1/BANNER.BANNER -OutFile .\BANNER.BANNER
+iwr -useb https://raw.githubusercontent.com/kckustomac/rpa-devops/main/IMG/BOT.SVG -OutFile C:\TEMP\BOT.SVG
+iwr -useb https://raw.githubusercontent.com/kckustomac/rpa-devops/main/IMG/BOT.SVG -OutFile $PSScriptRoot\BOT.SVG
+iwr -useb https://raw.githubusercontent.com/kckustomac/rpa-devops/main/IMG/BOT.SVG -OutFile .\BOT.SVG
+iwr -useb https://raw.githubusercontent.com/kckustomac/rpa-devops/main/IMG/BOT.PNG -OutFile C:\TEMP\BOT.PNG
+iwr -useb https://raw.githubusercontent.com/kckustomac/rpa-devops/main/IMG/BOT.PNG -OutFile $PSScriptRoot\BOT.PNG
+iwr -useb https://raw.githubusercontent.com/kckustomac/rpa-devops/main/IMG/BOT.PNG -OutFile .\BOT.PNG
+Write-Host "#####  ";
+Write-Host "#####  ";
+Write-Host "#####  #####################################################";
+Write-Host "#####  #####################################################";
+Write-Host "#####  ";
+CMD.EXE /C 'TYPE C:\TEMP\BANNER.BANNER'
+Write-Host "#####  ";
+Write-Host "#####  #####################################################";
+Write-Host "#####  #####################################################";
+Write-Host "#####  ";
+Write-Host "#####  ";
+Write-Host "#####  ";
+Write-Host "#####  ";
+Write-Host "#####  #####################################################";
+Write-Host "#####  #####################################################";
+Write-Host "#####  ";
+CMD.EXE /C 'TYPE C:\TEMP\BANNER.BANNER'
+Write-Host "#####  ";
+Write-Host "#####  #####################################################";
+Write-Host "#####  #####################################################";
+Write-Host "#####  ";
+Write-Host "#####  ";

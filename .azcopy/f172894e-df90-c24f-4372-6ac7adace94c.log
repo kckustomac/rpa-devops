@@ -1,0 +1,32 @@
+2023/11/25 00:54:56 AzcopyVersion  10.20.1
+2023/11/25 00:54:56 OS-Environment  windows
+2023/11/25 00:54:56 OS-Architecture  amd64
+2023/11/25 00:54:56 Log times are in UTC. Local time is 24 Nov 2023 18:54:56
+2023/11/25 00:54:58 ISO 8601 START TIME: to copy files that changed before or after this job started, use the parameter --include-before=2023-11-25T00:54:51Z or --include-after=2023-11-25T00:54:51Z
+2023/11/25 00:54:58 Any empty folders will not be processed, because source and/or destination doesn't have full folder support
+2023/11/25 00:54:58 Job-Command copy https://digopsadevstorage.blob.core.windows.net/telemetry-logs/site-5de96da3-d0a3-4681-b553-e87e49ce8b48-USnc/2023/11/25/00/826c9b-3472.applicationLog.csv?se=2030-11-25t06%3A55%3A09z&sig=-REDACTED-&sp=rwdlacupyx&spr=https%2Chttp&srt=sco&ss=bfqt&st=2023-11-24t22%3A55%3A09z&sv=2022-11-02 C:\Users\KCKUST~1\AppData\Local\Temp\17008736956430\826c9b-3472.applicationLog.csv --output-type=json --cancel-from-stdin --overwrite=prompt --check-md5 FailIfDifferent --from-to=BlobLocal --blob-type BlockBlob --recursive --log-level=INFO 
+2023/11/25 00:54:58 Number of CPUs: 4
+2023/11/25 00:54:58 Max file buffer RAM 2.000 GB
+2023/11/25 00:54:58 Max concurrent network operations:  will be dynamically tuned up to 3000 (Based on auto-tuning limit. Set AZCOPY_CONCURRENCY_VALUE environment variable to override)
+2023/11/25 00:54:58 Check CPU usage when dynamically tuning concurrency: true (Based on hard-coded default. Set AZCOPY_TUNE_TO_CPU environment variable to true or false override)
+2023/11/25 00:54:58 Max concurrent transfer initiation routines: 64 (Based on hard-coded default. Set AZCOPY_CONCURRENT_FILES environment variable to override)
+2023/11/25 00:54:58 Max enumeration routines: 16 (Based on hard-coded default. Set AZCOPY_CONCURRENT_SCAN environment variable to override)
+2023/11/25 00:54:58 Parallelize getting file properties (file.Stat): false (Based on AZCOPY_PARALLEL_STAT_FILES environment variable)
+2023/11/25 00:54:58 Max open files when downloading: 2147479959 (auto-computed)
+2023/11/25 00:54:58 Final job part has been created
+2023/11/25 00:54:58 Trying 4 concurrent connections (initial starting point)
+2023/11/25 00:54:58 JobID=f172894e-df90-c24f-4372-6ac7adace94c, credential type: Anonymous
+2023/11/25 00:54:58 Final job part has been scheduled
+2023/11/25 00:54:59 ==> REQUEST/RESPONSE (Try=1/137.0299ms, OpTime=478.6539ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://digopsadevstorage.blob.core.windows.net/telemetry-logs/site-5de96da3-d0a3-4681-b553-e87e49ce8b48-USnc/2023/11/25/00/826c9b-3472.applicationLog.csv?se=2030-11-25T06%3A55%3A09Z&sig=-REDACTED-&sp=rwdlacupyx&spr=https%2Chttp&srt=sco&ss=bfqt&st=2023-11-24T22%3A55%3A09Z&sv=2022-11-02&timeout=901
+   X-Ms-Request-Id: [9a0ef392-d01e-0062-0a3a-1fee21000000]
+
+2023/11/25 00:55:00 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  1, S:  0, P:  0, Q:  0, D:  0, E:  0, T:  1, GRs:  4
+2023/11/25 00:55:00 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 2-sec Throughput (Mb/s): 1.9226
+2023/11/25 00:55:01 WARN: [P#0-T#0] https://digopsadevstorage.blob.core.windows.net/telemetry-logs/site-5de96da3-d0a3-4681-b553-e87e49ce8b48-USnc/2023/11/25/00/826c9b-3472.applicationLog.csv?se=2030-11-25T06%3A55%3A09Z&sig=-REDACTED-&sp=rwdlacupyx&spr=https%2Chttp&srt=sco&ss=bfqt&st=2023-11-24T22%3A55%3A09Z&sv=2022-11-02 no MD5 was stored in the Blob/File service against this file. So the downloaded data cannot be MD5-validated. Dst: \\?\C:\Users\KCKUST~1\AppData\Local\Temp\17008736956430\826c9b-3472.applicationLog.csv
+2023/11/25 00:55:01 INFO: [P#0-T#0] DOWNLOADSUCCESSFUL: \\?\C:\Users\KCKUST~1\AppData\Local\Temp\17008736956430\826c9b-3472.applicationLog.csv
+2023/11/25 00:55:01 JobID=f172894e-df90-c24f-4372-6ac7adace94c, Part#=0, TransfersDone=1 of 1
+2023/11/25 00:55:01 all parts of entire Job f172894e-df90-c24f-4372-6ac7adace94c successfully completed, cancelled or paused
+2023/11/25 00:55:01 is part of Job which 1 total number of parts done 
+2023/11/25 00:55:02 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  0, S:  0, P:  0, Q:  0, D:  0, E:  0, T:  0, GRs:  4
+2023/11/25 00:55:02 100.0 %, 1 Done, 0 Failed, 0 Pending, 0 Skipped, 1 Total, 

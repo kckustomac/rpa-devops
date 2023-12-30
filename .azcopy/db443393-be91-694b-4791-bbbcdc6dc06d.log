@@ -1,0 +1,84 @@
+2023/11/01 17:17:52 AzcopyVersion  10.21.0
+2023/11/01 17:17:52 OS-Environment  windows
+2023/11/01 17:17:52 OS-Architecture  amd64
+2023/11/01 17:17:52 Log times are in UTC. Local time is 1 Nov 2023 12:17:52
+2023/11/01 17:17:52 ISO 8601 START TIME: to copy files that changed before or after this job started, use the parameter --include-before=2023-11-01T17:17:47Z or --include-after=2023-11-01T17:17:47Z
+2023/11/01 17:17:52 Any empty folders will not be processed, because source and/or destination doesn't have full folder support
+2023/11/01 17:17:52 Job-Command copy C:\Temp\ADP_MSS__FILE_LOAD_kckustomac\pending_20231101.csv https://enterprisedatalakedev.blob.core.windows.net/enterprisedata/Raw/Payroll/PortalPayRateChange/Enterprise/ADPPortal/csv/pending_20231101.csv?sdd=6&se=2024-10-10t21%3A49%3A23z&sig=-REDACTED-&sp=racwle&spr=https&sr=d&st=2023-10-10t13%3A49%3A23z&sv=2022-11-02 --overwrite=true --from-to=LocalBlob --blob-type BlockBlob --follow-symlinks --check-length=true --put-md5 --log-level=INFO 
+2023/11/01 17:17:52 Number of CPUs: 4
+2023/11/01 17:17:52 Max file buffer RAM 2.000 GB
+2023/11/01 17:17:52 Max concurrent network operations: 32 (Based on number of CPUs. Set AZCOPY_CONCURRENCY_VALUE environment variable to override)
+2023/11/01 17:17:52 Check CPU usage when dynamically tuning concurrency: true (Based on hard-coded default. Set AZCOPY_TUNE_TO_CPU environment variable to true or false override)
+2023/11/01 17:17:52 Max concurrent transfer initiation routines: 64 (Based on hard-coded default. Set AZCOPY_CONCURRENT_FILES environment variable to override)
+2023/11/01 17:17:52 Max enumeration routines: 16 (Based on hard-coded default. Set AZCOPY_CONCURRENT_SCAN environment variable to override)
+2023/11/01 17:17:52 Parallelize getting file properties (file.Stat): false (Based on AZCOPY_PARALLEL_STAT_FILES environment variable)
+2023/11/01 17:17:52 Max open files when downloading: 2147483224 (auto-computed)
+2023/11/01 17:17:52 Final job part has been created
+2023/11/01 17:17:52 JobID=db443393-be91-694b-4791-bbbcdc6dc06d, credential type: Anonymous
+2023/11/01 17:17:52 Final job part has been scheduled
+2023/11/01 17:17:52 INFO: [P#0-T#0] Starting transfer: Source "\\\\?\\C:\\Temp\\ADP_MSS__FILE_LOAD_kckustomac\\pending_20231101.csv" Destination "https://enterprisedatalakedev.blob.core.windows.net/enterprisedata/Raw/Payroll/PortalPayRateChange/Enterprise/ADPPortal/csv/pending_20231101.csv?sdd=6&se=2024-10-10T21%3A49%3A23Z&sig=-REDACTED-&sp=racwle&spr=https&sr=d&st=2023-10-10T13%3A49%3A23Z&sv=2022-11-02". Specified chunk size 8388608
+2023/11/01 17:17:54 PERF: primary performance constraint is Unknown. States: X:  0, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  1, E:  0, T:  1, GRs: 32
+2023/11/01 17:17:54 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2023/11/01 17:17:56 PERF: primary performance constraint is Unknown. States: X:  0, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  1, E:  0, T:  1, GRs: 32
+2023/11/01 17:17:56 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2023/11/01 17:17:58 PERF: primary performance constraint is Unknown. States: X:  0, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  1, E:  0, T:  1, GRs: 32
+2023/11/01 17:17:58 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2023/11/01 17:17:59 ==> REQUEST/RESPONSE (Try=1/39.9755ms, OpTime=6.7463602s) -- RESPONSE STATUS CODE ERROR
+   PUT https://enterprisedatalakedev.blob.core.windows.net/enterprisedata/Raw/Payroll/PortalPayRateChange/Enterprise/ADPPortal/csv/pending_20231101.csv?sdd=6&se=2024-10-10T21%3A49%3A23Z&sig=-REDACTED-&sp=racwle&spr=https&sr=d&st=2023-10-10T13%3A49%3A23Z&sv=2022-11-02
+   Accept: application/xml
+   Content-Length: 8356
+   Content-Type: application/octet-stream
+   User-Agent: AzCopy/10.21.0 azsdk-go-azblob/v1.1.0 (go1.19.12; Windows_NT)
+   X-Ms-Client-Request-Id: d162a86c-56e7-4c91-7766-d1c5532b6702
+   x-ms-access-tier: 
+   x-ms-blob-cache-control: 
+   x-ms-blob-content-disposition: 
+   x-ms-blob-content-encoding: 
+   x-ms-blob-content-language: 
+   x-ms-blob-content-md5: 
+   x-ms-blob-content-type: 
+   x-ms-blob-type: 
+   x-ms-version: 
+   --------------------------------------------------------------------------------
+   RESPONSE Status: 403 Server failed to authenticate the request. Make sure the value of Authorization header is formed correctly including the signature.
+   Content-Length: 408
+   Content-Type: application/xml
+   Date: Wed, 01 Nov 2023 17:17:59 GMT
+   Server: Microsoft-HTTPAPI/2.0
+   X-Ms-Error-Code: AuthenticationFailed
+   X-Ms-Request-Id: 621c932d-d01e-000e-1be7-0cafce000000
+Response Details: ﻿<Code>AuthenticationFailed</Code><Message>Server failed to authenticate the request. Make sure the value of Authorization header is formed correctly including the signature. </Message><AuthenticationErrorDetail>Signature fields not well formed.</AuthenticationErrorDetail>
+
+2023/11/01 17:17:59 ERR: [P#0-T#0] UPLOADFAILED: \\?\C:\Temp\ADP_MSS__FILE_LOAD_kckustomac\pending_20231101.csv : 403 : 403 Server failed to authenticate the request. Make sure the value of Authorization header is formed correctly including the signature.. When Uploading blob. X-Ms-Request-Id: 621c932d-d01e-000e-1be7-0cafce000000
+
+   Dst: https://enterprisedatalakedev.blob.core.windows.net/enterprisedata/Raw/Payroll/PortalPayRateChange/Enterprise/ADPPortal/csv/pending_20231101.csv?sdd=6&se=2024-10-10T21%3A49%3A23Z&sig=-REDACTED-&sp=racwle&spr=https&sr=d&st=2023-10-10T13%3A49%3A23Z&sv=2022-11-02
+2023/11/01 17:17:59 JobID=db443393-be91-694b-4791-bbbcdc6dc06d canceled
+2023/11/01 17:17:59 all parts of entire Job db443393-be91-694b-4791-bbbcdc6dc06d successfully completed, cancelled or paused
+2023/11/01 17:17:59 all parts of entire Job db443393-be91-694b-4791-bbbcdc6dc06d successfully cancelled
+2023/11/01 17:17:59 is part of Job which 1 total number of parts done 
+2023/11/01 17:18:00 PERF: primary performance constraint is Unknown. States: X:  0, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  1, T:  1, GRs: 32
+2023/11/01 17:18:00 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 2-sec Throughput (Mb/s): 0.0334
+2023/11/01 17:18:00 
+
+Diagnostic stats:
+IOPS: 0
+End-to-end ms per request: 6746
+Network Errors: 0.00%
+Server Busy: 0.00%
+
+
+Job db443393-be91-694b-4791-bbbcdc6dc06d summary
+Elapsed Time (Minutes): 0.1334
+Number of File Transfers: 1
+Number of Folder Property Transfers: 0
+Number of Symlink Transfers: 0
+Total Number of Transfers: 1
+Number of File Transfers Completed: 0
+Number of Folder Transfers Completed: 0
+Number of File Transfers Failed: 0
+Number of Folder Transfers Failed: 0
+Number of File Transfers Skipped: 0
+Number of Folder Transfers Skipped: 0
+TotalBytesTransferred: 0
+Final Job Status: Cancelled
+

@@ -1,0 +1,59 @@
+2023/10/24 20:30:01 AzcopyVersion  10.20.1
+2023/10/24 20:30:01 OS-Environment  windows
+2023/10/24 20:30:01 OS-Architecture  amd64
+2023/10/24 20:30:01 Log times are in UTC. Local time is 24 Oct 2023 15:30:01
+2023/10/24 20:30:02 ISO 8601 START TIME: to copy files that changed before or after this job started, use the parameter --include-before=2023-10-24T20:29:56Z or --include-after=2023-10-24T20:29:56Z
+2023/10/24 20:30:02 Any empty folders will not be processed, because source and/or destination doesn't have full folder support
+2023/10/24 20:30:02 Job-Command copy C:\Users\kckustomac\Desktop\PDD__ADP_Payrate_FileUpload__231012.pdf https://enterprisedatalakeqae.blob.core.windows.net/enterprisedata/Raw/Payroll/PortalPayRateChange/Enterprise/ADPPortal/csv/PDD__ADP_Payrate_FileUpload__231012.pdf?sdd=6&se=2024-10-10t21%3A52%3A38z&sig=-REDACTED-&sp=racwle&spr=https&sr=c&st=2023-10-10t13%3A52%3A38z&sv=2022-11-02 --output-type=json --cancel-from-stdin --overwrite=prompt --from-to=LocalBlob --blob-type Detect --follow-symlinks --check-length=true --put-md5 --follow-symlinks --disable-auto-decoding=false --recursive --log-level=INFO 
+2023/10/24 20:30:02 Number of CPUs: 4
+2023/10/24 20:30:02 Max file buffer RAM 2.000 GB
+2023/10/24 20:30:02 Max concurrent network operations:  will be dynamically tuned up to 3000 (Based on auto-tuning limit. Set AZCOPY_CONCURRENCY_VALUE environment variable to override)
+2023/10/24 20:30:02 Check CPU usage when dynamically tuning concurrency: true (Based on hard-coded default. Set AZCOPY_TUNE_TO_CPU environment variable to true or false override)
+2023/10/24 20:30:02 Max concurrent transfer initiation routines: 64 (Based on hard-coded default. Set AZCOPY_CONCURRENT_FILES environment variable to override)
+2023/10/24 20:30:02 Max enumeration routines: 16 (Based on hard-coded default. Set AZCOPY_CONCURRENT_SCAN environment variable to override)
+2023/10/24 20:30:02 Parallelize getting file properties (file.Stat): false (Based on AZCOPY_PARALLEL_STAT_FILES environment variable)
+2023/10/24 20:30:02 Max open files when downloading: 2147479959 (auto-computed)
+2023/10/24 20:30:02 Final job part has been created
+2023/10/24 20:30:02 Trying 4 concurrent connections (initial starting point)
+2023/10/24 20:30:02 JobID=50ba1682-a0b8-1d42-5171-6a926de708c5, credential type: Anonymous
+2023/10/24 20:30:02 Final job part has been scheduled
+2023/10/24 20:30:02 INFO: [P#0-T#0] Starting transfer: Source "\\\\?\\C:\\Users\\kckustomac\\Desktop\\PDD__ADP_Payrate_FileUpload__231012.pdf" Destination "https://enterprisedatalakeqae.blob.core.windows.net/enterprisedata/Raw/Payroll/PortalPayRateChange/Enterprise/ADPPortal/csv/PDD__ADP_Payrate_FileUpload__231012.pdf?sdd=6&se=2024-10-10T21%3A52%3A38Z&sig=-REDACTED-&sp=racwle&spr=https&sr=c&st=2023-10-10T13%3A52%3A38Z&sv=2022-11-02". Specified chunk size 8388608
+2023/10/24 20:30:04 PERF: primary performance constraint is Unknown. States: X:  1, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  1, GRs:  4
+2023/10/24 20:30:04 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2023/10/24 20:30:06 PERF: primary performance constraint is Unknown. States: X:  1, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  1, GRs:  4
+2023/10/24 20:30:06 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2023/10/24 20:30:07 ==> REQUEST/RESPONSE (Try=1/37.1738ms, OpTime=4.4453461s) -- RESPONSE STATUS CODE ERROR
+   HEAD https://enterprisedatalakeqae.blob.core.windows.net/enterprisedata/Raw/Payroll/PortalPayRateChange/Enterprise/ADPPortal/csv/PDD__ADP_Payrate_FileUpload__231012.pdf?sdd=6&se=2024-10-10T21%3A52%3A38Z&sig=-REDACTED-&sp=racwle&spr=https&sr=c&st=2023-10-10T13%3A52%3A38Z&sv=2022-11-02&timeout=901
+   User-Agent: [Microsoft Azure Storage Explorer, 1.31.2, win32, azcopy-node/3.1.0-rc.3 (win32)  AzCopy/10.20.1 Azure-Storage/0.15 (go1.19.12; Windows_NT)]
+   X-Ms-Client-Request-Id: [4ede74f1-4d0d-4bb9-5d15-802c83322f63]
+   X-Ms-Version: [2020-10-02]
+   --------------------------------------------------------------------------------
+   RESPONSE Status: 403 Server failed to authenticate the request. Make sure the value of Authorization header is formed correctly including the signature.
+   Date: [Tue, 24 Oct 2023 20:30:06 GMT]
+   Server: [Microsoft-HTTPAPI/2.0]
+   X-Ms-Error-Code: [AuthenticationFailed]
+   X-Ms-Request-Id: [3a12793a-301e-0045-28b8-06bb45000000]
+Response Details: 
+
+2023/10/24 20:30:07 ERR: [P#0-T#0] UPLOADFAILED: \\?\C:\Users\kckustomac\Desktop\PDD__ADP_Payrate_FileUpload__231012.pdf : 000 : Could not check destination file existence. -> github.com/Azure/azure-storage-blob-go/azblob.newStorageError, C:/Users/VssAdministrator/go/pkg/mod/github.com/!azure/azure-storage-blob-go@v0.15.0/azblob/zc_storage_error.go:42
+===== RESPONSE ERROR (ServiceCode=AuthenticationFailed) =====
+Description=403 Server failed to authenticate the request. Make sure the value of Authorization header is formed correctly including the signature., Details: (none)
+   HEAD https://enterprisedatalakeqae.blob.core.windows.net/enterprisedata/Raw/Payroll/PortalPayRateChange/Enterprise/ADPPortal/csv/PDD__ADP_Payrate_FileUpload__231012.pdf?sdd=6&se=2024-10-10t21%3A52%3A38z&sig=-REDACTED-&sp=racwle&spr=https&sr=c&st=2023-10-10t13%3A52%3A38z&sv=2022-11-02&timeout=901
+   User-Agent: [Microsoft Azure Storage Explorer, 1.31.2, win32, azcopy-node/3.1.0-rc.3 (win32)  AzCopy/10.20.1 Azure-Storage/0.15 (go1.19.12; Windows_NT)]
+   X-Ms-Client-Request-Id: [4ede74f1-4d0d-4bb9-5d15-802c83322f63]
+   X-Ms-Version: [2020-10-02]
+   --------------------------------------------------------------------------------
+   RESPONSE Status: 403 Server failed to authenticate the request. Make sure the value of Authorization header is formed correctly including the signature.
+   Date: [Tue, 24 Oct 2023 20:30:06 GMT]
+   Server: [Microsoft-HTTPAPI/2.0]
+   X-Ms-Error-Code: [AuthenticationFailed]
+   X-Ms-Request-Id: [3a12793a-301e-0045-28b8-06bb45000000]
+
+
+
+   Dst: https://enterprisedatalakeqae.blob.core.windows.net/enterprisedata/Raw/Payroll/PortalPayRateChange/Enterprise/ADPPortal/csv/PDD__ADP_Payrate_FileUpload__231012.pdf?sdd=6&se=2024-10-10T21%3A52%3A38Z&sig=-REDACTED-&sp=racwle&spr=https&sr=c&st=2023-10-10T13%3A52%3A38Z&sv=2022-11-02
+2023/10/24 20:30:07 JobID=50ba1682-a0b8-1d42-5171-6a926de708c5, Part#=0, TransfersDone=1 of 1
+2023/10/24 20:30:07 all parts of entire Job 50ba1682-a0b8-1d42-5171-6a926de708c5 successfully completed, cancelled or paused
+2023/10/24 20:30:07 is part of Job which 1 total number of parts done 
+2023/10/24 20:30:08 PERF: primary performance constraint is Unknown. States: X:  0, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  0, GRs:  4
+2023/10/24 20:30:08 0.0 %, 0 Done, 1 Failed, 0 Pending, 0 Skipped, 1 Total, 
